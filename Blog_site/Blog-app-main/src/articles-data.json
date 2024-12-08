@@ -1,0 +1,923 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "title": "How to be in the top 1% in 2024",
+            "author": "Smoul",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "7 min read",
+            "date": "Dec 15 2023",
+            "category": "lifestyle",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*F1Gh6B49T5oG6wc3W7j7pQ.jpeg",
+            "content": [
+                {
+                    "title": "7 habits to help you be a bette version",
+                    "content": "As the year 2023 comes to an end, most of us a preparing to set goals, and create lists and resolutions for 2024. The new year is not just about the year ending, it is like a goodbye to your old self, the mistakes you made, and the battles you lost all the while hoping for a fresh start with a new year. If you too are looking to rise above the odds and be in the top percentile — you’ve come to the right place. I’m here not to share the wisdom but only my experience. Why must you listen to me? Maybe because I was able to defy the odds and achieve that pedestal for myself this year. In 2023, I was working a 4 figure job that was nothing but a wave of unhappiness."
+                },
+                {
+                    "title": "1. Seek Discomfort",
+                    "content": "Sounds cliche, but trust me this one is the most important lesson. Professionally or personally, seeking discomfort is the only way a person can know their potential. Are you too comfortable with your work right now? Challenge it — take more tasks and push your boundaries.Want to start your business but don’t have time? Make it. Do work while traveling, cooking, an hour before bed — replace your TV time with work time. Let go of the materialistic happiness. But that’s like being a robot Absolutely not. Like I said, to be ahead of people, you’ll have to do what they’re unwilling to. People in their 20s would party, spend money and buy expensive things, go out each day — there is nothing wrong with that. It is called the life of choice. Your choices today will decide the future you have tomorrow. I like many others, choose to make sacrifices today so that I can have a more comfortable tomorrow. The hustle is not for the weak-hearted — you have to make up your mindset for it. This cultivates resilience, adaptability, and a fearless attitude toward challenges."
+                },
+                {
+                    "title": "2. Focus on What Matters",
+                    "content": "It’s not merely about ‘focus’; it’s about honing in on ‘what matters.’ Don’t invest time in things that don’t make you happier, healthier or smarter. Watch a show, eat something healthy, read a book — create a lifestyle that leads to ultimate betterment. Whether you prefer podcasts over reading or yoga over exercise, don’t squander your energy on activities that don’t align with your authentic self. Life is too short to engage in things that fail to ignite your excitement. Navigate away from energy-draining influences like social media or celebrity gossip, and invest your time where it truly matters."
+                },
+                {
+                    "title": "3. Take Responsibility for Your Life",
+                    "content": "Life is riddled with challenges, but success begins with taking responsibility. You have the power to shape your destiny. No one is coming to save you or do the tough tasks for you. They won’t get a job for you or start a business for you. It is all you in this game, make each moment count. Acknowledge flaws, learn from mistakes, and eschew excuses. By taking responsibility, you gain the autonomy to make positive changes and pursue goals with intent."
+                },
+                {
+                    "title": "4. Let Go of the Need for Approval",
+                    "content": "Success often necessitates breaking free from the chains of external validation. The first time I got a good grade, my mother said ‘Good Job’. From that day on, I studied like an owl to get the perfect score only to hear those words of affirmation from my parent. That did more harm than good — because when I don’t hear those words, I won’t be proud of my score. I started setting up validation expectations only to feel proud about my work.To surge ahead, abandon the incessant need for approval. So if people congratulate you, feel happy; if they don’t — move ahead.Forge a path guided by internal validation, accepting yourself — including flaws — and pursuing your goals unapologetically."
+                },
+                {
+                    "title": "5. Develop Resilience",
+                    "content": "Resilience is the cornerstone of personal growth. It entails bouncing back from setbacks, adapting to change, and persisting in the face of adversity. You’ll have to be comfortable with the idea of failing. For me, whenever I faced a setback, instead of saying ‘I lost’, I just said ‘The experiment didn’t work’. The strongest person is not the one who never lost, but the one who lost but still got back up. In your journey, there are going to be days when you don’t feel motivated, those are the days when you have to push through and come forth stronger.By developing resilience, you not only weather challenges but thrive in the midst of them.."
+                },
+                {
+                    "title": "6. Focus on your habits",
+                    "content": "People usually ask me “How did you know about your business?” Well, I didn’t. I had always been a spokesperson for productivity and had been using Notion for years. I was a writer since the age of 10 and even wrote a poetry book. But I never thought of intersecting the two interests. One day my classmate said “Your templates are so good, I would pay you for them” Ofc, he was joking but that one sentence I’ll never forget. That was the day I took my Notion board and published it for free — within the first day I had 7 downloads. You have to focus on your skills and the things that make you happy.Here is the perfect representation of what can help you make passive income. What is something -You’re good at -What people will pay you for -What is trending/in business ...The moment you find the answer to these — you’ve taken the first step in the path."
+                },
+                {
+                    "title": "7. Grow a network",
+                    "content": "Being mysterious and a lone wolf can only get you so far. I used to be so introverted. I had fewer friends and rarely hung out with people. I liked my own company. But when I started sharing my experiences online, so many people reached out. We created a group to interact and boost each other in any way possible. It was the best circle I had been a part of. Don’t let your geography keep you from meeting the right people Portugal, Mexico, France, Austin, etc, I talked to people from all these places and many more. We spent hours talking about our interests, and our motivations and sharing ideas. As you grow your network, you’ll realize the importance of having the right support."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "AI Predictions: Top 13 Trends for 2024",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*K2-qbIxgrJYD_llN.png",
+            "author": "Pragmatic Coders",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "13 min read",
+            "date": "Dec 10, 2023",
+            "category": "Technology",
+            "sections": [
+                {
+                    "title": "1. Generative AI: The Decade's Most Disruptive Trend",
+                    "content": "Generative AI (GenAI) generates creative content, dramatically speeding up processes. Gartner predicts 80% enterprise adoption by 2026."
+                },
+                {
+                    "title": "2. Augmented Working, BYOAI & Shadow AI",
+                    "content": "BYOAI sees employees bringing AI tools to work. Risks include data breaches. Shadow AI, AI without IT oversight, poses compliance issues."
+                },
+                {
+                    "title": "3. Open Source AI",
+                    "content": "Organizations adopt open-source AI models like GPT-J, offering transparency and flexibility. The trend challenges proprietary models."
+                },
+                {
+                    "title": "4. AI Risk Hallucination Policy",
+                    "content": "GenAI's potential for false outputs, called hallucinations, raises concerns. The market for AI risk hallucination insurance is expected to grow."
+                },
+                {
+                    "title": "5. AI Coding",
+                    "content": "By 2028, Gartner predicts 75% of enterprise software engineers will use AI helpers for coding, enhancing productivity and code quality."
+                },
+                {
+                    "title": "6. AI TRiSM (AI Trust, Risk, and Security Management)",
+                    "content": "AI TRiSM addresses explainability, model management, data anomaly detection, adversarial attack resistance, and data protection."
+                },
+                {
+                    "title": "7. Intelligent Apps & AI for Personalization",
+                    "content": "AI-driven personalization in apps is expected to increase significantly by 2026, impacting user engagement and conversion rates."
+                },
+                {
+                    "title": "8. Quantum AI",
+                    "content": "The marriage of quantum computing and AI, known as Quantum AI, has applications in finance, drug discovery, and the pursuit of Artificial General Intelligence (AGI)."
+                },
+                {
+                    "title": "9. AI Legislation",
+                    "content": "The need for legislation governing AI development and use is growing. The EU AI Act proposes the first global framework for AI governance."
+                },
+                {
+                    "title": "10. Ethical AI",
+                    "content": "Ethical AI addresses bias, transparency, privacy, safety, and security. Guidelines and regulations are being developed globally to ensure responsible AI use."
+                },
+                {
+                    "title": "11. AI in Customer Service",
+                    "content": "AI investments in customer service are rising. AI is seen as a tool to enhance, not replace, human representatives, improving efficiency and providing a competitive edge."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "10 Success Tips Inspired by Harvey Specter",
+            "image": "https://media.gq-magazine.co.uk/photos/5d1392292eec66b4f341ea16/16:9/w_1280,c_limit/Suits-1-GQ-24Nov15-pr_b.jpg",
+            "author": "Tigran Hakobyan",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "5 min read",
+            "date": "May 27, 2015",
+            "category": "story",
+            "sections": [
+                {
+                    "content": "One of my favorite TV shows is “Suits” which is a law drama in the USA Network. For those of you who don’t know, Harvey Specter is a senior partner from the fictional law firm Pearson Hardman in Suits. He is a type of a guy “that not everyone likes”. If you are a football fan then it will be easier for you to understand his character because he is very much like Jose Mourinho or Cristiano Ronaldo. While watching Suits I’ve managed to pick up some tips from Harvey Specter for success in business and life in general."
+                },
+                {
+                    "title": "Don’t try to lose small, try to win big.",
+                    "content": "This is one of those glass half empty or glass half full kind of things. Just go forward, take risks, and try to win. You will never win if you don’t try. Be a winner, not a loser."
+                },
+                {
+                    "title": "Win your battles before they have even been fought.",
+                    "content": "Harvey Specter likes to win his cases outside of court because going to court is expensive. If you can find an option to win the battle without actually going to war, then take it."
+                },
+                {
+                    "title": "Play the man, not the odds.",
+                    "content": "Logic and rationality are the tools that almost anyone can use. Anybody can play the odds. Almost each and every person can use logic to sell a product or to create a business. But those who actually make their strategy based on the emotional factor are the ones who will come up on top."
+                },
+                {
+                    "title": "Master the art of reading people.",
+                    "content": "Harvey likes poker and plays it on his days-off. I think that’s the reason he learned the right way of reading people. It’s an important skill to have. People around you are always giving out tiny signals, and if you are able to catch them and use them to your advantage, you will be extremely successful in business. It is always to your advantage to predict what others are going to do before they actually do it."
+                },
+                {
+                    "title": "Appearances are important.",
+                    "content": "It’s a critical point in business life. Understand that the way you look has a direct impact on the way others perceive you."
+                },
+                {
+                    "title": "Be a risk-taker.",
+                    "content": "Do you want a boring and shitty life? Then never take risks! In contrast, if you want to achieve something or have an interesting life, then it’s better you take risks."
+                },
+                {
+                    "title": "Be cool and keep your composure.",
+                    "content": "Be cool even in tough situations. Just have confidence in yourself."
+                },
+                {
+                    "title": "Do what you have to do.",
+                    "content": "'Sometimes the good guys gotta do bad things to make the bad guys pay.'"
+                },
+                {
+                    "title": "Study, learn non-stop, and know your competition.",
+                    "content": "You always have to be one step ahead. Always!"
+                },
+                {
+                    "title": "Don’t waste time trying to explain the problem, fix it instead.",
+                    "content": "Nowadays, in the 21st century, every second counts, and a second spent talking rather than doing is a second wasted."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "I Don’t Do Christmas.",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*1mqqMqGw2zpQSppQHvvX8w@2x.jpeg",
+            "author": "M.B.Drummond",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "5 min read",
+            "date": "6 days ago",
+            "category": "lifestyle",
+            "sections": [
+                {
+                    "content": "I don’t do Christmas” is usually how I politely inform people that I don’t want to participate in anything Christmas related. Only a very few hear it, and even fewer seem to understand it. By all outward appearances I should be donning my elf ears and baking cookies and wrapping the presents I spent the year shopping for. But that’s not me, not in the slightest. If and when I have grandkids, I’ll gladly relinquish that stereotype to the other grandma(s)."
+                },
+                {
+                    "content": "I was raised in a home where holidays and everything related were weaponized against me, and only me. I then married a man who idealized the Christmas holiday to an unrealistic and unattainable standard, which included watching “Christmas Vacation” on loop. Of course his inevitable disappointment was always my fault, and I heard about it until my birthday in February. His family was no better, and spending the holidays with them was torture. So my Christmas holidays were always filled with drama and trauma."
+                },
+                {
+                    "content": "Well until I left him and spent Christmas blissfully and peacefully alone for the first time, at age 40. My kids were still at home so I did the tree and the presents for them, but it was much simpler than what they’d known in years past. As they got older and I remained single, I progressively checked out of the winter holidays all together. That’s right, I don’t do New Year’s either."
+                },
+                {
+                    "content": "This year I’ve moved to a new place for a new job. I’m surrounded by new acquaintances and coworkers. None of them have heard me when I’ve said, “I don’t do Christmas.” They have not been interested in the reasons why, which extend beyond the drama and trauma. I no longer have religious beliefs that make the holiday meaningful spiritually. Taking away that aspect of it leaves nothing but empty traditions based on obligatory visits with people I may or may not like and buying the same people obligatory gifts they may or may not like."
+                },
+                {
+                    "content": "This year I’m kicking myself because “I don’t do Christmas” was a boundary I didn’t assert clearly enough, and I’ve compromised. I’m finding myself falling back into to trying to explain it to people and apologizing. They’ve decorated my desk and bought me presents I don’t want and put me in charge of the office lunch(I’m the boss and it goes on my expense credit card). Because it’s government, the tip for the $200 bill isn’t included and isn’t reimbursable. When asked, my new boss said not to tip. I might be a Scrooge but I’m not an asshole, so I’m paying a $30 tip for a luncheon I never wanted to attend. I ended up buying shitty gifts I didn’t want to buy. Tomorrow I’m participating in a white elephant gift exchange, and it’s already nails on my internal chalkboard. And then there’s the f*cking music and the ugly sweaters.."
+                },
+                {
+                    "content": "A new acquaintance that is trying to ingratiate herself into my life as my BFF for life brought over a box filled with gifts wrapped in non-Christmas paper. Each had a tag on it that said, “Not a Christmas gift.” They were thoughtful gifts and I’m grateful for the friendship. But it’s also a relationship red flag in that I have shared with her why the holidays are problematic for me, and she plowed ahead anyway. She thought she was being cute and witty, but instead created a situation where there’s now an imbalance in our relationship that I never asked for and I’m fighting those annoying feelings of social obligation. I thanked her for the gifts, exchanged a hug, but said, “I won’t have gifts for you.” And I really won’t, at least not obligatory commercialized holiday gifts."
+                },
+                {
+                    "content": "Yes, I’ve been to therapy and I’ve dealt with my issues. The holidays still bring up difficult memories, though, which means I have to go through the well worn paces of mentally processing it all from Thanksgiving to January 2nd to keep myself from PTSD’ing into the fetal position every weekend. I’m fine, fortunately, but I’m emotionally exhausted and feeling very raw, and I’m constantly managing varying degrees of stress and anxiety. I think my therapist will be as glad as I will to see 2024."
+                },
+                {
+                    "content": "But the other more important thing is that the holidays don’t really align with my values anymore. Like I mentioned earlier, I don’t have religious beliefs that make Christmas meaningful. For my own sanity and safety I’ve committed to not engaging with anyone I don’t want to in my personal life. I live a pretty thrifty, minimalist lifestyle. When I give someone a gift, it’s usually a heartfelt handmade item of use. I knitted my son a hat, and crocheted a purse for the gift exchange. Or I gift an experience, like tickets to a show or an exhibit or a talk, often of a mutual interest with the person. This year I’m feeling pretty disingenuous about it all and as a person, and I’m sure it shows in my participation and level of engagement."
+                },
+                {
+                    "content": "The point of my rambling tonight is this: if someone says “I don’t do Christmas”, then please recognize it as a boundary and don’t question them on it. Don’t try to melt their Scroogey-Grinchy ice-cold heart with your jolly holiday cheer hoping for a Christmas miracle. As a society, we have somehow elevated someone who is “Alone for the holidays” to martyrdom status they need to be rescued from as a measure of kindness. Not all of us who are alone for the holidays want the invitation or the sympathy or the martyrdom. Some of us cherish the respite a day alone brings. Don’t decorate their desk, don’t buy them gifts. Don’t invite them to the parties or the gift and cookie exchanges. Absolutely do not pressure them into an ugly sweater. Above all else, don’t shame or criticize them for not participating, or the shitty gift they mustered up for you."
+                },
+                {
+                    "content": "Just let them be. Have coffee with them, do normal everyday stuff with them. Talk about the weather or your dog or a movie you watched, but don’t talk about Christmas or New Year resolutions. Unless, of course, you also “don’t do Christmas”, then you can let them know they aren’t alone."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "How to Improve Your English Daily",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*ssWqz2JLPvbaL-o4IQ4e_g.png",
+            "author": "Denisse Landau",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "8 min read",
+            "date": "sep 30 2023",
+            "category": "ideas",
+            "sections": [
+                {
+                    "content": "It’s just so incredible how time flies when you enjoy what you do! I’m more than amazed to say: I’ve completed a whole year of publishing series How to Improve Your English Daily! In the past, when I read all over the internet, and heard people say every now and then: “Find something you love, and you’ll never work a day in your life.” Let me tell you, even though there have been months in which I wasn’t feeling like writing or felt doubt regarding my overall abilities for creating articles which could add value to people, I worked through them and here I am: publishing once again! Let’s get down today’s topics, shall we?"
+                },
+                {
+                    "title": "1 — Work for tomorrow, not just for today",
+                    "content": "In the tapestry of our lives, every step we take today, every effort we muster, and every negative thought we cast aside, lays the foundation for the radiant success that tomorrow promises. Drawing from my own neurodivergent journey, I've navigated the highs and lows, but above all, I've chosen to seize control of the reins. I reject the notion that anyone other than myself is responsible for crafting the magnificence of my journey. It's a bitter pill to swallow, but a necessary truth. Amidst life's challenges, blaming others or shedding tears only provides temporary relief. Instead, I urge you to own your circumstances and find your unique workaround – believe me, you can solve this puzzle. The key? Decide to change, to take matters into your own hands. Reflect on the company you keep, for we are profoundly influenced by those we surround ourselves with. Negativity breeds negativity, and the choice to distance myself from such influences has been liberating. I made a deliberate choice to eliminate those who only spread negativity, fostering a space where criticism has no place. The result? A social circle that celebrates achievements and fuels positivity. Taking this proactive step not only expanded my horizons but also silenced the guilt that often accompanies such decisions. In sharing this, I don't dwell on the past but hope my experiences resonate. This is a journey of self-discovery and empowerment, a testament to the transformative power of surrounding oneself with positivity and taking charge of one's narrative."
+                },
+                {
+                    "title": "2 - Group activity — Sharing our wildest dreams",
+                    "content": "Speaking in a language other than your mother tongue can be uncomfortably challenging, a sentiment I personally experienced during my year of teaching English. To alleviate the self-doubt tied to language proficiency, I devised an activity involving pre-cut papers, pens, and a timer. Participants, guided by a volunteer, decide collectively on the time allocation—fostering a group dynamic. In a supportive environment, each person writes down a wild dream within a time frame, promoting inclusivity. The crucial decision then rests with the group: share individually, in pairs, or in threes. This activity subtly shifts the focus from language apprehension to the excitement of sharing personal aspirations, making the challenge of speaking in English more manageable. The transformative power lies in the shift from linguistic concerns to the willingness to express oneself, revealing the remarkable impact of creating a safe space for open communication."
+                },
+                {
+                    "title": "3 - Solo Activity — Daily training",
+                    "content": "Let's turn our focus inward, contemplating the time we dedicate to daily activities like commuting or scrolling through social media. With a newfound appreciation for our time, I propose a simple yet impactful daily activity. Equip yourself with a paperback notebook or your laptop, maybe a pen, and a timer. Allocate just 15 minutes each day to learn English—a modest starting point but a crucial one. Why 15 minutes? It's about cultivating a sustainable habit, avoiding the pitfalls of unrealistic commitments. Consider the scenario of attempting a daunting hour or two of practice; life's demands can easily disrupt such plans, leading to guilt and negativity. Contrastingly, devoting a manageable 15 minutes daily builds a consistent routine. Picture arriving home, hydrating, and dedicating a focused 15 minutes to English practice. This incremental approach ensures steady progress, transforming language learning into an achievable and rewarding habit."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "How I became a full-time writer by building a personal brand on Twitter",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*alq8Hph0GhCSqYGr4kTSrA.jpeg",
+            "author": "heyizmadz",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "3 min read",
+            "date": "Nov 18, 2023",
+            "category": "creative",
+            "sections": [
+                {
+                    "content": "Building a personal brand on Twitter was the best decision I made this year.\nI went from 0 ➝ 1500 followers in 2 months.\nI monetized my account and got inbound clients in no time.\nBut there’s a trick!\nNone of this would be possible if I didn’t learn the cheat codes for building a powerful and strong community.\nThe truth is, a personal brand will always be an asset in this world.\nYour fans will always support and buy anything you have to offer.\nSo if you have a Twitter account but are not using it to your advantage, you're missing out on big opportunities."
+                },
+                {
+                    "title": "My dream came true—getting paid to write in my favorite niches.",
+                    "content": "Here is how you can do it too:\nWhy Twitter, you may ask?\nBecause it's the best social media for writers—and also the easiest way to create content in 2023.\nUse your Twitter account to post 3 types of content.\nGrowth content➝ to educate.\nAuthority content ➝to inspire.\nPersonal content➝ to entertain.\nCombine all 3 to create enjoyable content.\nAuthority content is what will get you clients.\nShowcase your work or how you helped someone get closer to a desired outcome.\nYou will be surprised at how many people will start reaching out to you.\nBut this only works if you already built a small audience and a clean brand for yourself.\nBut don’t get discouraged!\nIt’s easier to achieve that today than it has ever been before."
+                },
+                {
+                    "title": "Most people think they suck at building a personal brand, but they just don’t have the right system.",
+                    "content": "You probably follow the generic guru advice:\n· Niche down.\n· Optimize your profile.\n· Write 5 tweets per day.\n· Show up every day, and your time will come.\nGuess what?\nThis isn’t what got me from:\n· 0→ 1500 followers.\n· 0 → 5M Impressions.\n· 0 → 𝕏 Clients.\n· 0 → AD Revenue.\nAll in 2 months!\nThe difference between you and me is knowledge and a powerful system."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Tesla Autopilot Recall: Controversy in the Autonomous Revolution",
+            "author": "Usman Aslam",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "2 min read",
+            "date": "Dec 16 2022",
+            "category": "Technology",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*zy3olxxaRfCrg4ZAHeiegA.jpeg",
+            "content": [
+                {
+                    "title": "The Autopilot Journey",
+                    "content": "Tesla, a company synonymous with innovation, faces a tempest as its Autopilot system prompts a colossal recall.\n\nLawsuits, like a relentless wave, have been crashing against the electric giant. The criticism centers on the alleged overstatement of the system’s autonomy, causing confusion among drivers.\n\nWhile Tesla’s engineers provide “tempered” court testimony, CEO Elon Musk’s bold claims face scrutiny."
+                },
+                {
+                    "title": "The Ripple Effect",
+                    "content": "The turbulence doesn’t stop at Tesla.\n\nIn a parallel narrative, Cruise, another player in the autonomous vehicle sector, announces a 24% reduction in its workforce.\n\nSafety concerns and incidents in the industry cast a looming shadow, prompting stakeholders to rethink their risk mitigation strategies.\n\nThe question echoing through the industry: What lies ahead in the coming"
+                },
+                {
+                    "title": "Elon Musk’s Tightrope Walk",
+                    "content": "Elon Musk’s recent comments at the New York Times DealBook Summit thrust the Autopilot feature into the spotlight, resulting in a significant recall.\n\nDespite Tesla’s stock soaring, up over 110% for the year, concerns about the Full Self-Driving system persist.\n\nThe collision between marketing claims and technical realities triggered a two-year investigation by US safety regulators."
+                },
+                {
+                    "title": "Insider Insights: A Legal Perspective",
+                    "content": "In a LinkedIn post titled “Insider Insights,” a legal expert breaks down Tesla’s massive recall.\n\nThe National Highway Traffic Safety Administration (NHTSA) stepped in, citing around 1,000 crashes involving Autopilot.\n\nThe post raises critical concerns for Tesla: consumer trust and misrepresentation, regulatory compliance, and liability for accidents.\n\nAre we pushing technology too hard, too fast?"
+                },
+                {
+                    "title": "Legal Hurdles and the Wake-Up Call",
+                    "content": "A Florida judge adds to Tesla’s legal troubles, stating there’s “reasonable evidence” that Elon Musk and company executives knew about the autopilot system’s defects.\n\nThis revelation raises questions about consumer trust, regulatory compliance, and potential liabilities for Tesla.\n\nIt’s not just a technical hiccup; it’s a reality check for the entire industry."
+                },
+                {
+                    "title": "In a Nutshell",
+                    "content": "As the Autopilot controversy unfolds, Tesla finds itself at a crossroads.\n\nBeyond fixing the technology, the company must set realistic expectations and tighten its legal strategy.\n\nThe recall serves as a wake-up call, not just for Tesla but for the entire autonomous driving industry.\n\nAre we moving too fast without considering the risks?\n\nThe road to autonomy is indeed a marathon, and the industry must navigate it with caution, transparency, and a commitment to safety."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "What I Learned as a Product Designer at Apple",
+            "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*BniKIhT3c54sIEuPtzRQKw.jpeg",
+            "author": "Andrea Pacheco",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "4 min read",
+            "date": "Dec 1, 2023",
+            "category": "Technology",
+            "sections": [
+                {
+                    "title": "Build a Great Product, Not an MVP",
+                    "content": "Apple's success in product design stems from its unique business model, allowing room for innovation, failure, and a strong focus on design excellence. The emphasis is on crafting a remarkable product rather than a minimum viable product (MVP)."
+                },
+                {
+                    "title": "Storytelling is Key",
+                    "content": "Communication is crucial. Great design is essential, but effective communication takes you further. Sharing projects requires influencing and moving people forward, making storytelling a superpower for product designers."
+                },
+                {
+                    "title": "Top-Down Culture Isn't Bad",
+                    "content": "Contrary to common belief, a top-down culture at Apple proved effective. Decisions are made faster, and there's a focus on achieving the best user experience. The lack of ego fosters a healthy debate and intentionality in decision-making."
+                },
+                {
+                    "title": "Great Communication Goes Beyond Design",
+                    "content": "Passionate communication is vital not only when presenting work externally but also internally. Selling ideas to teams and stakeholders requires effective communication, making them feel confident and optimistic."
+                },
+                {
+                    "title": "Storytelling as a Superpower",
+                    "content": "Designers at Apple use storytelling to influence others. Keynote decks are a common medium for sharing work, emphasizing the importance of presenting a compelling narrative."
+                },
+                {
+                    "title": "Prioritize Big Ideas Over Usability Fixes",
+                    "content": "Apple's culture prioritizes long-term impact over small wins. The focus is on building the next big thing rather than addressing minor usability issues. This approach aligns with Apple's reputation for innovation."
+                },
+                {
+                    "title": "Trust Your Instincts",
+                    "content": "User testing is limited due to confidentiality concerns. Instead, internal user tests with selected employees and expert reviews are crucial. Trusting the instincts of experienced professionals becomes a valuable decision-making tool."
+                },
+                {
+                    "title": "Focus on Craft and Execution",
+                    "content": "Apple's design teams dedicate most of their time to perfecting the craft—interaction, visual, and system design. While strategic thinking is important, a dedicated product team handles the broader product strategy."
+                },
+                {
+                    "title": "\"One More Thing\" Bonus Culture",
+                    "content": "Encouraging a bonus culture allows designers to explore additional opportunities related to a project, fostering creativity without the pressure of immediate implementation."
+                },
+                {
+                    "title": "Simplicity and Excellence",
+                    "content": "Apple's commitment to excellence is reflected in its products. The culture prioritizes delivering the best user experience, even if it means delaying a release. Simplicity is celebrated, reflecting in both hardware and software development."
+                },
+                {
+                    "title": "Learn to Say \"No\"",
+                    "content": "Prioritizing impact involves learning to say \"no\" to projects that won't bring significant value. Focus on delivering high-quality results on projects you commit to."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Voice Deepfakes: What They Are and How to Avoid Scams",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*fAAfyfewBzSAmmIHsZZIxg.jpeg",
+            "author": "The Conversation",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "4 min read",
+            "date": "Mar 28 2023",
+            "category": "Technology",
+            "sections": [
+                {
+                    "content": "Voice deepfakes are becoming more convincing, making it possible to simulate a person's voice realistically. Scammers use this technology to trick individuals into financial scams and impersonations."
+                },
+                {
+                    "content": "Crafting a high-quality voice deepfake requires artistic and technical skills, powerful hardware, and a sample of the target voice. Some services offer voice clones with only a few seconds of sample, posing a risk for scams."
+                },
+                {
+                    "content": "Researchers are actively working on detecting and limiting the harm caused by video and audio deepfakes. Everyday actions, such as being cautious of unexpected calls and safeguarding personal information, can help individuals protect themselves."
+                },
+                {
+                    "content": "Voice phishing or 'vishing' scams are common, and caller ID can be faked. Individuals are advised to verify calls independently, especially for sensitive matters like financial transactions. Protecting personal information is crucial to avoid impersonation and financial loss."
+                },
+                {
+                    "content": "Knowing one's intellectual and emotional biases is key to avoiding manipulation. Scammers often exploit financial anxieties, political attachments, or other vulnerabilities. Additionally, being aware of confirmation bias helps in identifying and resisting disinformation spread through voice deepfakes."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Extremely simple tips for good sleep",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*zRqpZ52y6k-JJK1s",
+            "author": "Slightly Better",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "3 min read",
+            "date": "oct 21 2023",
+            "category": "ideas",
+            "sections": [
+                {
+                    "title": "Introduction",
+                    "content": "I have struggled with sleep for a long time. Getting to bed very late, not being able to sleep till 3am, waking up groggy, all of the common bad sleep habits. Over time after reading up a lot and listening to podcasts, I figured out a few simple things I can follow. They are simple, because they only need 1 thing — getting started. Follow this with the discipline of an Army Officer. Discipline is simply you telling your brain to STFU and treating it like a petulant child that it is most of the time. I’ve listed it in descending order of importance."
+                },
+                {
+                    "title": "1.Don’t work your brain 2 hours before sleeping.",
+                    "content": "Imagine you were living 200 years ago without electricity in a village. It’s after sunset, there’s some twilight. You prepare dinner, have that with your family and you’re sitting around in your hut lit by an oil-lamp. There is silence. Crickets are making their cricket noise. You are talking with your family. and then the conversation slows down. You’re all sitting in silence. Imagine the status of the brain in this situation. It’s just... relaxed and bored. The world around has fallen off and there’s nothing from the outside for you to think about or process.You are sitting... with your thoughts... just bored. You lay out your bedding and drift into sleep. Today this is likely what is happening — work ends at 10pm. You eat some crap with the TV on. The great TV show is making you feel a 1000 things. Brain is not bored. It’s ACTIVE. you finish watching something at a cliffhanger, aargh! Then later you get on youtube or one of these apps. Brain is ACTIVE. But you somehow drift into sleep, and brain doesn’t really get that off time at all. Not good. So, just try this — 2 hours before sleeping, go back 200 years. Shut everything out. Just sit, talk, hear the sounds. Maybe do some boring stuff like read something you don’t like or do the dishes. Reduce lights. Be with yourself. Do this for 7 days. Incredible results."
+                },
+                {
+                    "title": "2. Be shockingly busy throughout the day",
+                    "content": "Just keep moving throughout the day. Work like crazy, do chores, commute, gym, whatever. Just be shockingly busy. When you look back at your day, you shouldn’t have felt the passage of time AT ALL. Because you were busy. Tire yourself out basically. It’s easier than you think."
+                },
+                {
+                    "title": "3. Keep screens far away from the bed",
+                    "content": "This is a fairly simple common sense one. Some nights it’ll take you longer to get sleep. You’ll jump to your phone or ipad or TV. But don’t. Let your brain get used to the crickets, it will get bored at some point and you’ll sleep great."
+                },
+                {
+                    "title": "4. NO BIG IDEAS 2 hours before sleep",
+                    "content": "Many times I get a great idea about something, and my brain goes into ideation. It could be something as simple as making more space in my wardrobe, or trying out a great cooking idea. Nope. Don’t indulge. You have a full day where you can squeeze these things in. Night is not for this. If you get a big idea, write it down, take it up first thing in the morning. Just don’t indulge. Go back to the crickets.."
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "How to make your first $ online",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*JnOrGyHy8pUanRze",
+            "author": "Muhammed Noman",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "3 min read",
+            "date": "sep 21 2023",
+            "category": "busniess",
+            "sections": [
+                {
+                    "title": "Microtasks & Surveys",
+                    "content": "Platforms like Amazon Mechanical Turk and Prolific offer small, bite-sized tasks like data entry, transcription, and surveys for payment. The earnings might be small per task, but they can accumulate quickly."
+                },
+                {
+                    "title": "Freelancing",
+                    "content": "If you have specific skills like writing, graphic design, or programming, you can offer your services on freelance platforms like Upwork and Fiverr. Start with smaller projects to build your portfolio and reputation."
+                },
+                {
+                    "title": "Online Selling",
+                    "content": "Turn your unused belongings into cash by selling them on platforms like eBay or Facebook Marketplace. You can also create and sell digital products like e-books, courses, or printables."
+                },
+                {
+                    "title": "Content Creation",
+                    "content": "Start a Blog, YouTube channel, or Social media account focused on a topic you’re passionate about. Once you build an audience, you can earn through advertising, affiliate marketing, or sponsored content."
+                },
+                {
+                    "title": "Online Tutoring or Coaching",
+                    "content": "Share your knowledge and expertise by offering Online Tutoring or coaching in your area of specialization. Platforms like Skooli and Preply connect you with students worldwide."
+                },
+                {
+                    "title": "Paid Online Surveys",
+                    "content": "Several websites offer paid surveys related to your demographics and interests. While the payouts might be small, it’s a passive way to earn some extra cash."
+                },
+                {
+                    "title": "Testing Websites and Apps",
+                    "content": "Companies often seek user feedback on their websites and apps. Platforms like UserTesting and Test.io connect you with such opportunities for payment."
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "The Power of Networking for Solopreneurs",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*8gxQn_DPf_EA8--h",
+            "author": "Muhammed Noman",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "3 min read",
+            "date": "may 21 2023",
+            "category": "busniess",
+            "sections": [
+                {
+                    "content": "Networking is the art of building meaningful connections with individuals who share similar interests, goals, or experiences. For solopreneurs, networking can be a transformative tool that unlocks a wealth of opportunities, fosters collaboration, and propels their businesses to new heights.At times, networking feels like navigating uncharted waters alone. However, the power of networking emerges as a beacon of possibility in this seemingly solitary endeavor. It’s not merely about exchanging business cards or attending events; networking for solopreneurs is a strategic avenue for growth, collaboration, and unlocking doors to opportunities that transcend the boundaries of working in isolation.In this article, “The Power of Networking for Solopreneurs,” we delve into the transformative potential of cultivating connections and how it serves as a catalyst for the success and resilience of solopreneurial ventures."
+                },
+                {
+                    "title": "Building Connections for Growth and Collaboration",
+                    "content": "For solopreneurs, building connections is not a mere social activity; it’s a strategic imperative for achieving sustained growth and fostering collaboration.\n\nThe unique challenges faced by solopreneurs, such as limited access to resources and expertise, make networking a linchpin for success. Meaningful connections expand knowledge horizons, unveil new opportunities, and establish a robust support system.\n\nThe collaboration born from networking becomes a cornerstone for resilience, propelling solopreneurs beyond the confines of individual efforts and into a collaborative adventure that transforms their professional journey."
+                },
+                {
+                    "title": "Further Evaluation & Strategies",
+                    "content": "1. The Strategic Role of Networking:\n\nNetworking is not just about swapping business cards; it’s a strategic move. It opens doors to opportunities, partnerships, and valuable insights. As a solopreneur, each connection can be a potential collaborator or mentor.\n\n2. Building a Diverse Network:\n\nDiversity is the cornerstone of a powerful network. Connect with professionals from various industries, backgrounds, and expertise. A diverse network brings a wealth of perspectives and opens doors to unforeseen possibilities.\n\n3. Online and Offline Networking:\n\nEmbrace both online and offline networking. Attend industry events, conferences, and local meetups. Simultaneously, leverage online platforms like LinkedIn, Twitter, and industry forums to expand your virtual presence and connections.\n\n4. Leveraging Social Media:\n\nSocial media is a solopreneur’s ally. Use platforms strategically to showcase your expertise, engage with industry discussions, and connect with like-minded professionals. LinkedIn, in particular, is a goldmine for professional networking.\n\n5. Providing Value in Networking:\n\nNetworking is a two-way street. Provide value to your connections by sharing insights, resources, and support. Actively contribute to discussions and be a valuable asset in your network.\n\n6. The Elevator Pitch:\n\nCraft a compelling elevator pitch that succinctly introduces you and your business. A clear and engaging pitch makes lasting impressions during networking events and interactions.\n\n7. Building Genuine Relationships:\n\nAuthenticity is key. Focus on building genuine relationships rather than transactional connections. Invest time in getting to know your connections, understanding their challenges, and offering genuine support.\n\n8. Networking Events and Conferences:\n\nAttend relevant networking events and conferences in your industry. These gatherings provide a fertile ground for meaningful connections, knowledge exchange, and potential collaborations.\n\n9. Following Up:\n\nEffective networking extends beyond the initial interaction. Always follow up with your new connections. Express gratitude for their time, share relevant insights, and express your interest in maintaining the relationship.\n\n10. Joining Professional Groups:\n\nBecome an active member of professional groups and associations related to your industry. Engage in discussions, share your expertise, and connect with fellow professionals who share similar interests.\n\n11. Collaborative Projects:\n\nExplore collaborative projects with your network. Working on joint ventures, partnerships, or collaborative initiatives can amplify your reach and bring fresh perspectives to your solopreneurial venture.\n\n12. Mentoring and Being Mentored:\n\nBe open to both mentoring and being mentored. Networking often leads to valuable mentorship opportunities. Simultaneously, consider mentoring others based on your experiences and expertise.\n\n13. Overcoming Networking Challenges:\n\nNetworking isn’t without challenges. Overcome common hurdles like shyness or fear of rejection by focusing on the value you bring and approaching interactions with a genuine interest in others.\n\n14. Cultivating a Referral Network:\n\nEncourage and nurture a referral network. Satisfied clients, collaborators, or fellow solopreneurs can become powerful advocates, referring business your way.\n\n15. The Long-Term Impact:\n\nThe true power of networking lies in its long-term impact. Cultivating a strong network doesn’t yield immediate results, but over time, the connections you build can be a source of ongoing support, collaboration, and growth."
+                },
+                {
+                    "title": "Conclusion",
+                    "content": "Networking is a two-way street. It’s about building mutually beneficial relationships, not just collecting business cards.\n\nRecognize networking not as a routine task but as a strategic journey that can add depth and breadth to your solopreneurial venture.\n\nTo make the most of this transformative process, consider a structured approach. Start by actively engaging in industry events, both online and offline, and strategically utilizing social media platforms. Cultivate diverse connections, offer your expertise, and seek collaborations that align with your goals.\n\nYour solo journey doesn’t have to be a solitary one. Connect, collaborate, and follow a roadmap that turns your networking efforts into a collaborative adventure. The connections you build today can indeed be the catalyst for remarkable success tomorrow.\n\nBy investing time and effort in genuine connections, solopreneurs can harness the power of networking to propel their businesses forward and achieve remarkable success."
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "title": "5 Trends in Website Design for 2024",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*2eBycs1aclJVh4rz.jpg",
+            "author": "Abhi Chatterjee",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "5 min read",
+            "date": "dec 8 2023",
+            "category": "design",
+            "sections": [
+                {
+                    "content": "In this article, I’ll tell you about 5 big web design trends that I think will be huge in 2024. By the end of this article, you’ll know all about these trends and it’ll help you do well in 2024, creating awesome stuff for your clients. Let’s jump in!"
+                },
+                {
+                    "title": "Dark Mode Website",
+                    "content": "The 1st web design trend is dark mode, a style that got super popular last year thanks to Linear. Everyone was jumping on the bandwagon because it looks fantastic. Why? Well for one it’s easy on the eyes — reading and consuming content is a breeze. Plus, it gives a clean, professional and slightly serious vibe which suits a lot of websites. And here’s the cool part: dark mode doesn’t just mean a pitch-black background. You can play around with different dark colors to create awesome gradients, highlights, and glows, making your website really pop. These dark mode websites are here to stay and I don’t see this trend fading away anytime soon."
+                },
+                {
+                    "title": "Bento grid",
+                    "content": "The 2nd hot web design trend gaining popularity is the Bento grid. What I love about these grids is that they always look neat and organized, giving a uniform feel. If you ever wonder how to structure your website, just go with a Bento grid. I’ve seen some fantastic examples in recent months and I believe this trend is here to stay for a while. In many ways, it feels like we’re just scratching the surface of what can be done with Bento grids and we can expect to see some cool examples in the coming year.However, like anything, there are pros and cons. The major downside is that it can get a bit overwhelming and messy if not used carefully — like a cluttered desk. So, it’s crucial to use this approach sparingly and not overload the user with too much."
+                },
+                {
+                    "title": "Vibrant Gradients",
+                    "content": "The 4th web design trend that I’m currently loving is the use of vibrant gradients. Gradients can really lift a website, adding depth and filling up space. They’re a fantastic way to make your site look professional without the hassle of creating custom assets or searching for stock photos or videos. These lively gradients serve as a great background for your website, adding depth without overshadowing the text. The best part is, there are plenty of free websites that can help you customize and create your own gradients. You can do this in almost any design or development tool so if you haven’t tried it yet, I highly recommend diving in and learning how to create polished gradients for a sleek look."
+                },
+                {
+                    "title": "AI Generated Imagery",
+                    "content": "The 3rd trend I see a lot of is the increased use of AI-generated images. The visuals on a website matter a ton because people are more likely to check out a picture, video or animation than to read text. Until now, creating custom images has been tricky and stock photos can be expensive. But with the rise of AI and new design tools, things are changing. You can pretty much create any image you want and it’s often free. Need a pic of a blue dog in a Santa hat? No problem, you got it. So, it’s crucial for us designers to get the hang of these AI tools. Platforms like Adobe Firefly and Mid Journey are excellent places to start."
+                },
+                {
+                    "title": "Massive Typography",
+                    "content": "Now, let’s talk about the 5th and final web design trend that’s going to be big in 2024: massive typography. While this isn’t exactly new and has been around for a few years. I’m noticing a lot more websites embracing the idea of using really big text. It’s a bit unconventional, challenging the typical way people are used to seeing websites. Personally though I’m a big fan of this trend. Why? Because it makes us, as designers and developers be careful about what text we put on the website. When all your typography is huge, you can’t have tons of content, so each word needs to count. I like this because it’s easy for users to read and understand exactly what the website or company is about. The other reason I love this massive typography trend is that it takes up so much space that you don’t need to rely as much on visuals. You can use fewer images, animations or videos and put more emphasis on the text. Of course, having a unique custom font makes this approach even more effective."
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Consistency in design, much like bodybuilding.",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*jmeuQSRphJmh6zK-Jby03w.jpeg",
+            "author": "Thomas Sagayaraj",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "2 min read",
+            "date": "april 5 2023",
+            "category": "design",
+            "sections": [
+                {
+                    "content": "That’s an interesting comparison! As a both Experience designer and fitness freak i can feel the similarity among these two passions or professions. Yea, obviously Consistency in design, much like bodybuilding.In bodybuilding it demands consistent effort, daily training, and adherence to a regimen for muscle growth and overall fitness. Similarly, In design, consistency ensures a coherent and harmonious look across different elements, creating a unified experience."
+                },
+                {
+                    "title": "“Building Blocks of Success: Consistency in Design and Bodybuilding”",
+                    "content": "Consistency is the cornerstone of success in various domains, from design to bodybuilding. Surprisingly, these seemingly disparate fields share striking similarities in their pursuit of excellence through unwavering commitment and discipline."
+                },
+                {
+                    "title": "Foundations :",
+                    "content": "In design, consistency manifests as a visual harmony that guides users seamlessly through an interface. Elements like color schemes, typography, and layout maintain coherence and reliability. Similarly, bodybuilding thrives on consistent workouts, nutrition, and recovery — each session a building block towards a stronger physique."
+                },
+                {
+                    "title": "Discipline and Routine :",
+                    "content": "Design iterations lead to refinements, each version an improvement on the last, evolving towards optimal user experiences. In bodybuilding, progressive overload — a gradual increase in weights or intensity — stimulates muscle growth, mirroring design’s incremental advancements."
+                },
+                {
+                    "title": "Mindset and Patience :",
+                    "content": "A resilient mindset fuels both disciplines. Designers embrace failures as learning opportunities, iterating towards better solutions. Likewise, bodybuilders understand that transformation takes time, staying patient and committed to long-term goals."
+                },
+                {
+                    "title": "Final Thoughts :",
+                    "content": "Through this comparison, Consistency in design and bodybuilding transcends the superficial. It embodies dedication, discipline, and an unwavering commitment to growth. Whether crafting seamless user experiences or sculpting a powerful physique, the path to excellence is paved with the bricks of consistency."
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Why Uniforms are Important in Schools: A Balanced Perspective.",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*jTVIb317Op6zyjLm",
+            "author": "Posh Garments Ltd",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "3 min read",
+            "date": "May 25, 2023",
+            "category": "Fashion",
+            "sections": [
+                {
+                    "content": "Greetings, fashion enthusiasts! As a passionate advocate for personal expression through clothing, I often find intriguing parallels between the world of fashion and the art of self-discovery. Much like the canvas of personal style, our individuality serves as a medium through which we communicate our unique personalities and values. Join me as we delve into the fascinating similarities between personal style and the journey of self-discovery."
+                },
+                {
+                    "title": "“Dressing Up Identity: The Intersection of Fashion and Self-Expression”",
+                    "content": "Fashion and self-expression share a profound connection, with clothing acting as a powerful medium for individuals to convey their identities to the world. In this exploration, we will navigate the shared aspects of fashion and the journey of self-discovery, uncovering how our choice of attire reflects the essence of who we are."
+                },
+                {
+                    "title": "The Canvas of Personal Style:",
+                    "content": "Within the realm of fashion, personal style emerges as the artistic expression of one's identity. It involves the thoughtful selection of garments, colors, and accessories that resonate with one's unique personality. Similarly, the journey of self-discovery unfolds as a continuous process of understanding and embracing our distinctive traits, values, and aspirations — shaping the canvas of our identity."
+                },
+                {
+                    "title": "Experimentation and Evolution:",
+                    "content": "Fashion enthusiasts frequently embark on a journey of experimentation with different styles and trends, allowing their wardrobe to evolve over time. Likewise, the journey of self-discovery mirrors this process, involving the exploration of new experiences, learning, and evolving as individuals. Both endeavors thrive on embracing change and celebrating personal growth."
+                },
+                {
+                    "title": "Reflection and Introspection:",
+                    "content": "Our fashion choices serve as reflections of our moods, experiences, and cultural influences. Similarly, the journey of self-discovery necessitates introspection, self-awareness, and an understanding of the factors that shape our beliefs and values. Both avenues provide opportunities for deep reflection and personal insight."
+                },
+                {
+                    "title": "Challenges and Triumphs:",
+                    "content": "Fashion enthusiasts may encounter challenges in discovering their unique style, yet overcoming these obstacles leads to a sense of triumph and heightened self-confidence. Similarly, the journey of self-discovery involves navigating obstacles and celebrating the triumphs that come with embracing one's true self."
+                },
+                {
+                    "title": "Conclusion:",
+                    "content": "In this exploration, the intertwining threads of fashion and self-discovery unravel a narrative of personal expression, experimentation, and growth. Whether curating a wardrobe or discovering one's identity, both journeys are uniquely individual yet universally resonant, illustrating the profound connection between the clothes we wear and the essence of who we are."
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "title": "5 Truths About Marketing I Wish Every Business Owner Knew",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*xNjMQxIi37NVwVC-rGhPEw.jpeg",
+            "author": "Victoria Alex",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "6 min read",
+            "date": "10 Oct 2023",
+            "category": "business",
+            "sections": [
+                {
+                    "content": "As a business owner, you have no choice but to wear many hats, especially at the beginning. To wear the marketing one in style, read this."
+                },
+                {
+                    "title": "Instead of introduction",
+                    "content": "You may wonder, Why “wish”? Let me explain. There are two main reasons."
+                },
+                {
+                    "title": "1. The first one is backed up by self-interest.",
+                    "content": "I have studied Economics, after all. (If you don’t get the joke, go read about the “invisible hand”. I am funny.) Marketers’ lives will be way easier when more entrepreneurs embrace these truths. Here I count on all the marketers to “Share, Like, and Subscribe”. I do work for your greater good."
+                },
+                {
+                    "title": "2. It will save entrepreneurs so much hustle trying to fix mistakes that can be easily avoided.",
+                    "content": "I understand not every business owner has a marketing background. It is normal. Let’s trust the universe to make them stumble across this article and help them save time and money. Ah, and headache as well. And here are my universal marketing truths."
+                },
+                {
+                    "title": "Posting on Facebook is not marketing",
+                    "content": "As a seasoned marketer, let me debunk a common misconception: social media marketing goes beyond mere posts on Facebook, Instagram, TikTok, or Medium. While Facebook is undeniably popular, with over 300 million photos uploaded daily, the reality is stark—business profile posts have a mere 1% organic reach. Simply put, a sporadic post won't lead to business success.\n\nLikes and followers are not a currency unless backed by a robust strategy. Crafting a social media marketing strategy isn't about starting with a post; it begins with understanding your customer's persona. Delve into their social platform preferences, interests, and concerns. Ask crucial questions: Who are the users on each platform? How does your product align with them? Do you need to be present on all platforms? Are your posts research-backed or impromptu?\n\nRecognize that different platforms demand different content. Armed with this knowledge, construct a comprehensive strategy and distribute efforts effectively. Choose appropriate content forms for each platform, avoiding the pitfall of recycling content without adaptation. Remember, if your marketing guru engages in such practices, it might be time for a change. Imagine posting a Facebook update on Medium—ridiculous, isn't it? The key takeaway: social media success hinges on a thoughtful strategy, not just sporadic posts."
+                },
+                {
+                    "title": "The logo is not the brand",
+                    "content": "In the realm of branding, it's crucial to understand that while the logo plays a significant role, it is not synonymous with the brand itself. To illustrate this point, consider an AI example: generating a picture of a person using Fotor. Yes, you have an image, but who is this person? What are their thoughts, values, beliefs, and desires? Your brand is akin to this person—it's more than just a logo.\n\nThis analogy emphasizes that a brand extends far beyond a visual symbol. Just as the person generated by AI doesn't exist beyond the picture, your brand doesn't exist solely in its logo. I won't delve into a full branding lesson here, but the takeaway is clear: when offered a logo, ensure that there's a commitment to crafting a comprehensive brand identity. A logo alone is not the essence of your brand; it's a nuanced combination of values, beliefs, and experiences that truly define it."
+                },
+                {
+                    "title": "Marketing ideally should start before there is a product…or even a company",
+                    "content": "If you are waiting for a plateau in sales to start your marketing efforts, you are way too late. Yes, I understand, you run a small business. Sure, there are more urgent expenses. But you don’t need a million-dollar marketing campaign. What you need is to know your customers and your product. Your effort should be to enhance the product so you always delight the customer. The rest will follow. Ideally, you should hire a marketing agency from the outset. Or find a freelancer who knows their craft. So you don’t build inconsistent messages. Or even worse, start offering unsellable products. Marketers are not magicians, and not everything can be fixed. If this is the case, they may even suggest rebranding."
+                },
+                {
+                    "title": "Every interaction with your customer is marketing",
+                    "content": "Every customer’s touch point with your product or service, I call marketing. It can be advertising or badvertising. What I mean is that you can’t press undo. In real life and in business, this button doesn’t exist. Everything you or your employees do or don’t do … Everything your product or service is or isn’t … is building an image of your brand in front of your customers."
+                },
+                {
+                    "title": "After-sales marketing is equally as essential as pre-sales",
+                    "content": "I see many business owners fixating on sales. They get their sales, and then what? Are these customers going to come back? For a repeat purchase I mean, not back to complain or ask for a refund. I am sure you have heard of this. Over and over. To win a new customer costs 5–6 times more than to keep an established one. Blah blah. We all know it. And yet, why do so few companies do something about it? You can always show customers that you care about them and their experience. Even if you don’t have the budget. Just be polite by checking on them after the sale. See if everything is fine. Don’t wait for negative reviews. If you follow that advice, you may even resolve issues that no one expected you to resolve. Read: Loyalty boost. And if you are a big company with deep pockets, you have no excuse. You need to invest in retention marketing. The bigger the purchase, the more invested your customers are. Therefore they will need more reassurance that the choice was right. You need to be there and assure them your product/service was indeed the best fit. Not nice to have, but a must-have."
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "title": "7 High-Quality & Creative Copywriting Tips That Don’t Involve Templates or Formulas",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*uRZVimPqI-FtnfDUMjtwyw.png",
+            "author": "Kushagra Oberoi",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "3 min read",
+            "date": "Dec 3, 2023",
+            "category": "creative",
+            "sections": [
+                {
+                    "title": "1. Use Parentheses",
+                    "content": "Parentheses are the brackets that offer extra information. It is used to add more context, explanations, and clarity. While also adding personality and a conversational tone to your copy. Not to forget that (much-needed) visual break."
+                },
+                {
+                    "title": "2. Sell a Use Case.",
+                    "content": "A use case essentially solves 2 things:\n1. Your customer’s problem\n2. The specific value your product brings\nIf your customers can see themselves using your product frequently, they are more likely to buy it."
+                },
+                {
+                    "title": "3. Frame it Differently",
+                    "content": "“Framing is the art of saying what you want your audience to understand.” Look at how Smart Sweets uses the lens of statistics to show how they are a better option. They don’t want to be THE BEST. They just want to be the least sweet."
+                },
+                {
+                    "title": "4. Do a Bittersweet Complaint",
+                    "content": "1. Take a beneficial talking point of your product.\n2. Write about it in a review style.\n3. Flip the script to complaint-like messaging. This can add wit, sarcasm, and humor to your copy."
+                },
+                {
+                    "title": "5. State Unrealised Benefits",
+                    "content": "These are the hidden, indirect benefits. The non-obvious ones that we cannot see, feel, or think about until prompted. Mostly, these are deep-rooted in our emotions and psychology."
+                },
+                {
+                    "title": "6. Callback to Insider Reference",
+                    "content": "Having an inside reference or joke builds a special bond with your customers. Not everyone gets it + it shows off personality. Also, there’s a sense of belonging and exclusivity."
+                },
+                {
+                    "title": "7. Include a Double Meaning",
+                    "content": "Double meanings are phrases that can be interpreted in two ways. They grab attention, promote thinking, and get your reader invested. The game is misdirection + surprise."
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Preparing for Tomorrow...",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*k2vyJWohhmZcAkDL",
+            "author": "Allen Westley",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "3 min read",
+            "date": "3 days ago",
+            "category": "Technology",
+            "content": [
+                {
+                    "title": "Embrace Continuous Learning",
+                    "content": "The first step in adapting to these changes is a commitment to continuous learning. Understanding cloud architectures, AI implications in cybersecurity, quantum-resistant cryptography, and blockchain applications is crucial."
+                },
+                {
+                    "title": "Develop a Hybrid Skill Set",
+                    "content": "Professionals should aim to develop a hybrid skill set that includes both traditional cybersecurity knowledge and proficiency in emerging technologies."
+                },
+                {
+                    "title": "Understand the Ethical Implications",
+                    "content": "As AI becomes more prevalent in cybersecurity, understanding its ethical implications is vital. This includes issues like privacy, bias in AI algorithms, and the security of AI systems themselves."
+                },
+                {
+                    "title": "Stay Updated with Policies and Frameworks",
+                    "content": "As technologies evolve, so do the policies and frameworks that govern them. Staying informed about these changes is crucial for compliance and effective security management."
+                },
+                {
+                    "id": 505,
+                    "title": "Leverage AI and Automation",
+                    "content": "View AI and automation as allies. Learn how these technologies can be utilized for threat detection, risk assessment, and security protocol optimization."
+                },
+                {
+                    "title": "Network and Collaborate",
+                    "content": "Engaging with the cybersecurity community through conferences, forums, and professional groups can provide insights and opportunities to collaborate on emerging challenges."
+                },
+                {
+                    "title": "Focus on Specialization",
+                    "content": "Considering specializing in areas that are expected to see significant growth, such as AI security, quantum cryptography, or blockchain."
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Five Examples Of How To Influence & Tell A Story",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*PAhdCT_oog63ar3tydg_kQ.png",
+            "author": "Alexander Novicov",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "3 min read",
+            "date": "Aug 10, 2023",
+            "category": "story",
+            "sections": [
+                {
+                    "content": "Most of us are familiar with the incredible TV show called Madmen. There are some very important lessons that I learned from that show. It’s important if we want to learn how we can influence and tell a story that makes an impact."
+                },
+                {
+                    "title": "1. It’s never about you",
+                    "content": "Nobody cares about how many awards we won, nobody cares about how successful a brand is and no one cares how great someone is.\nPeople care about the following:\nHow you can solve their problem.\nHow you can take away their pain.\nHow you can make their life better.\nThis is what marketing and sales should be about. Sell them that and you will win."
+                },
+                {
+                    "title": "2. Don’t sell the product, sell the transformation / the output.",
+                    "content": "The best sales strategy is to sell the unspoken benefit. True transformation isn’t always seen at face value.\nWe should always go deeper and ask why people buy my product.\nIn the fitness industry it’s never about a membership, a health bar, or even a race. It’s about how the person becomes on the journey.\nNobody wants a PT or a running coach or to torture themselves running an ultra race, what everyone wants is WHO they become once they’ve accomplished something great.\nGo deep and ask yourself the following, what do they truly want:\nMeaning.\nFulfillment.\nDesire."
+                },
+                {
+                    "title": "3. Sell the story not the product.",
+                    "content": "Do you know why we buy certain things even when we don’t need them? Because of the story we tell ourselves.\nI’m against creating a story to influence just so people buy more stuff. I think we should be ethical and sell to people that truly need our services and products.\nStories make people feel they need that. It makes them desire the outcome.\nStories do the following:\nThe elicit an emotional response.\nThey spark a physical sensation.\nThey evoke warm memories.\nWhat is the story behind what you are selling?"
+                },
+                {
+                    "title": "4. Don’t worry about competition",
+                    "content": "A lot of businesses look at what their competition is doing, and what they are saying. But they are not focused on what they are doing and what they are saying themselves.\nIt’s good to look at what other businesses are doing, but the best thing we can do is focus on what we can do and how we can position ourselves.\nIn the clip below I don’t agree on the tactics used but it’s a great example / lesson on how you can position yourself in a way that positions others in a different way.\nBrand positioning is a very powerful thing.\nHow do you position yourself in a unique way?"
+                },
+                {
+                    "title": "5. Share a story that your customers believe in",
+                    "content": "I made this mistake for years. I tried to convince people that didn’t have the same belief. You can imagine how hard it is to convince people to change their story.\nThe best strategy we can use is to sell a story that our customers already believe.\nI think the biggest shift I made is that I understood that I don’t need to change people’s minds, and introduce a new world view. I just need to find the right people that believe in the same thing as I do.\nWe need to confirm people’s beliefs, agree on their world view and share how we can elevate that."
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "title": "What “The Sopranos” Teaches Us About Innovation",
+            "image": "https://www.tvguide.com/a/img/resize/89d6832d16b974d5794545ccb8e77f5957f98264/hub/2020/01/30/b82d1d8d-b94d-4801-a984-212f77288ec5/the-sopranos-reg.jpg?auto=webp&fit=crop&height=1080&width=1920",
+            "author": "Alf Rehn",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "1 min read",
+            "date": "Aug 29 2023",
+            "category": "story",
+            "sections": [
+                {
+                    "content": "“The Sopranos” was never just a mob drama; it was a narrative disruptor, subverting expectations at every turn. The show’s genius lay in its ability to take a tried-and-true formula (mafia stories) and infuse it with profound psychological depth, exemplified by Tony’s therapy sessions. Herein lies our first lesson: True innovation doesn’t always mean reinventing the wheel; sometimes, it’s about melding wheels with wings to craft something soaringly unique."
+                },
+                {
+                    "content": "Secondly, the characters, as morally compromised as they might be, are wellsprings of adaptability. The Soprano family and their associates constantly pivot (and I don’t use that Silicon Valley buzzword lightly) in response to threats, market changes (yes, crime has its own market dynamics), and internal conflicts. Their survival hinges on their ability to adapt and innovate within their illicit industry."
+                },
+                {
+                    "content": "Lastly, the show’s enduring success underscores the importance of depth and quality. In an era of binge-watching and fleeting TikTok trends, “The Sopranos” reminds us that meticulously crafted, deeply resonant work stands the test of time. Innovation isn’t about churning out the new for the sake of novelty; it’s about creating lasting value."
+                },
+                {
+                    "content": "In conclusion, beneath the show’s veneer of mob politics and familial drama, “The Sopranos” serves up a veritable feast of insights on innovation. And remember, in the words of Tony Soprano, “‘Remember When’ is the lowest form of conversation.” Always look forward, kids, but don’t forget to learn from the past — even if it’s from a mob boss’s therapy session. 🔪 🍝."
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "title": "The Most Anticipated New Tech Coming in 2024",
+            "image": "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*z9tBy-x-AxWFykgoIiDywQ.png",
+            "author": "Trends Place",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "4 min read",
+            "date": "Dec 7 2023",
+            "category": "Technology",
+            "sections": [
+                {
+                    "title": "1. Apple Vision Pro",
+                    "content": "The highly anticipated Apple Vision Pro is set to impact the VR and AR market, attracting new developers and users."
+                },
+                {
+                    "title": "2. First Rollable Phone",
+                    "content": "Late 2024 will witness the arrival of the first rollable phone, introducing a new category of devices with unique shapes and possibilities."
+                },
+                {
+                    "title": "3. First UWB Wireless Headphones",
+                    "content": "The first half of 2024 will see the introduction of wireless headphones featuring Ultra Wide Band (UWB) connection, promising ultra-low latency and lossless audio formats."
+                },
+                {
+                    "title": "4. Apple Vision Pro Lite",
+                    "content": "Rumors suggest a more affordable version of the Apple Vision Pro, aiming to reach a broader audience and stimulate application development."
+                },
+                {
+                    "title": "5. Samsung Galaxy Ring",
+                    "content": "Samsung is rumored to enter the smart rings market with the Galaxy Ring in 2024, bringing new life and usage possibilities to this accessory."
+                },
+                {
+                    "title": "6. Samsung Galaxy S24",
+                    "content": "The Samsung Galaxy S24 promises significant updates with a focus on integrating Artificial Intelligence into the smartphone, setting new standards."
+                },
+                {
+                    "title": "7. Meta Ventura / Quest 3 Lite",
+                    "content": "Meta is working on a budget-friendly version of the Quest 3, aiming to attract a broader user base and developers to the Meta Quest platform."
+                },
+                {
+                    "title": "8. iPhone 16 / iPhone 16 Ultra",
+                    "content": "Rumors suggest significant updates for the iPhone 16, including MLA technology, Wi-Fi 7 support, enhanced cooling, camera upgrades, and new AI capabilities."
+                },
+                {
+                    "title": "9. First Foldable Tablets",
+                    "content": "Foldable tablets from industry giants like Samsung, Apple, and Google are expected to be released in 2024, potentially revitalizing the tablet industry."
+                },
+                {
+                    "title": "10. First Trifold Smartphone",
+                    "content": "Samsung is set to announce its first trifold phone in 2024 — the Galaxy Z Flex, offering a unique form factor with a tripled screen size when unfolded."
+                },
+                {
+                    "title": "11. Nintendo Switch 2",
+                    "content": "The highly anticipated Nintendo Switch 2 is slated for release in September 2024, featuring increased hard drive space, a better display, and hardware updates."
+                },
+                {
+                    "title": "12. Apple Watch X",
+                    "content": "Rumors surrounding the Apple Watch X indicate a Micro LED display, a new design, revamped band attachment, and potential new health sensors for advanced tracking."
+                },
+                {
+                    "title": "13. Surface Pro 10 — First Windows 12 Device",
+                    "content": "The Surface Pro 10 is expected to be tailored for Windows 12, incorporating heavy implementations of Artificial Intelligence and receiving various hardware updates."
+                },
+                {
+                    "title": "14. First Sonos Earbuds & Headphones",
+                    "content": "Sonos plans to release over-ear headphones and earbuds in 2024, possibly announcing a Sonos TV streaming device later in the year."
+                },
+                {
+                    "title": "15. LG Gaming TVs",
+                    "content": "LG's 2024 TV models are expected to introduce new gaming features, including a higher refresh rate and a game hub, enhancing the gaming experience."
+                },
+                {
+                    "title": "Final Words",
+                    "content": "2024 promises to be a remarkable year in the tech sphere with cutting-edge devices set to redefine the technological landscape."
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "title": "5 Simple Ways To Be More Attractive",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*o7wfX-02oNY-wORAtMo48w.png",
+            "author": "Harsh Darj",
+            "author_image": "https://shorturl.at/lCDKU",
+            "reading_time": "4 min read",
+            "date": "Nov 15, 2023",
+            "category": "fashion",
+            "sections": [
+                {
+                    "content": "Having a beautiful face is hot but having a kind soul is hotter. Having a banging body is hot but having a brilliant brain is hotter. Having external success is hot but having internal fulfillment is hotter. You see, it’s not all about what meets the eye, but the treasure that lies within. I have been guilty of judging a book by its cover. People by their appearances. But like they say you can meet people only as deeply as you have met yourself. So, after a bit of soul-searching, these are the 5 things that instantly turn me on in a person."
+                },
+                {
+                    "title": "Empathy & Compassion",
+                    "content": "The most attractive people are kind even when the world has been unkind to them. The most attractive people are generous, even when they have little to give. The most attractive people have an open heart, even when they have every reason to close their hearts.\n\nIt tells you a lot about a person when they help someone who has nothing to give back. Helping a stranger with directions. Helping a homeless person with a meal. Helping a friend with the move. Helping a family member with a listening ear. These little things make a big difference and it’s simply so attractive."
+                },
+                {
+                    "title": "Intellectual Curiosity",
+                    "content": "Someone who can silence their ego and open their mind is hot. Someone who is genuinely interested in learning more about you, your passions, your dreams, your desires, and your goals is hot. Someone who eagerly seeks new experiences, new connections, and new adventures is hot.\n\nMy favorite thing about curiosity is that it can be practiced by anyone but an insecure person can never be truly curious."
+                },
+                {
+                    "title": "Having Boundaries",
+                    "content": "People who are kind but have no boundaries are not kind. They are just people-pleasers who are constantly seeking validation and most of the time have a hidden motive. The most attractive people have standards, they have boundaries, and they are not afraid to say no.\n\nYou know what’s attractive? Saying no to opportunities that don’t align with your values. You know what’s attractive? Saying no to unhealthy relationships that suck the soul out of you. You know what’s attractive? Saying no to yourself. No to your temptations. No to your excuses. No to your self-doubt that’s silently robbing you of the beautiful life you deserve."
+                },
+                {
+                    "title": "Living with Passion and Purpose",
+                    "content": "People with purpose move differently. You can see commitment in their eyes, discipline in their action, and conviction in their voice. When you come across such people, you are instantly drawn to them. Their energy is so magnetic that it lights up your own ambitions and aspirations. It leaves you with a sense of hope and assurance, almost whispering, “You’ve got this too.”"
+                },
+                {
+                    "title": "A Sense of Humor",
+                    "content": "You know that kind of person, right? The one who doesn’t take themselves too seriously. The one that can make you laugh until your stomach hurts. The one who’s laugh is funnier than the joke itself.\n\nThis type of people is rare and they understand that tragedy is the biggest comedy. Your guard naturally comes down, and you’re transported back to that childlike state. You don’t need to play the pretend game anymore. It’s like they’ve given you permission to be yourself. It’s like they accept you with all your flaws. This sense of comfort and acceptance is attractive af."
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "title": "The guide to healthy habits in 2024",
+            "image": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*SP8RCMTRD3zdBFDx",
+            "author": "Ananya",
+            "author_image": "https://abdelrahmanalsayed.github.io/Kasper_PSD_Template-2/images/skills-01.jpg",
+            "reading_time": "3 min read",
+            "date": "dec 14 2023",
+            "category": "lifestyle",
+            "sections": [
+                {
+                    "content": "If you think about it, even following 5 habits with the 80/20 rule (20% efforts give 80% results), and most importantly, doing them consistently can have a huge impact on your life. If I had to go back to the basics and begin my self-improvement journey from scratch, here’s what I would start with."
+                },
+                {
+                    "title": "Sleeping for 8 hours every day.",
+                    "content": "Everyone has different optimal times (times when you get the most work done easily). So even if you are a night owl, please ensure that you are not sleep-deprived because ultimately it will end up destroying your productivity. More importantly, we all know the outcomes of sleep deprivation. Waking up in the morning feeling refreshed and ready to start the day gives you enough motivation to bring change in your life and create other important habits. And if you think about it, this is definitely the easiest habit to follow, but has the biggest impact on your life. Here are some small steps to ensure you’re getting up and sleeping on time:- 1.Avoid screens at least 45–60 minutes before bed. 2.Less light exposure at night, and sleep with the blinds open so that it’s easier to wake up in the morning. (Sun exposure works wonders). 3.If you can’t wake up in the morning, keep your phone across the room or in another one. You’ll have to get up to turn it off, and this will also prevent you from staying on your phone late at night.\n"
+                },
+                {
+                    "title": "Taking care of your skin",
+                    "content": "A few months ago, I wouldn’t even include this in the list of my secondary habits. But, since I’ve started taking of myself and my skin, it’s been life-changing.\nAccording to me, taking care of your skin isn’t gender specific at all. Everyone should ensure that they’re treating their skin right, even if it’s just 5 minutes a day."
+                },
+                {
+                    "title": "Drink water",
+                    "content": "Let me remind you of the benefits of drinking water:-Maximum energy levels.Helps maximise physical performance.Good for your skin.The best way to incorporate drinking more water in your life is to get a bottle like this and ensure you fill it the night before and finish it every day. You can also:-Drink water immediately after waking up. Keep your bottle at your workspace at all times.\n"
+                },
+                {
+                    "title": "Plan your day the night before",
+                    "content": "I can proudly say that after following this habit for 6+ months, this has changed my life for the better. Even this habit doesn’t take a lot of effort. Every day, before you go to bed, keep a small notebook beside you where you’ll write down 3 non-negotiables for the next day. Read more about non-negotiables here.When you get up the next day, work on one of those tasks immediately. The best part is, that you don’t waste time deciding what to do, and working on the task immediately will get you the momentum you need.\n"
+                },
+                {
+                    "title": "Exercising",
+                    "content": "I don’t need to convince you about the benefits of this habit. If I had to continue one habit out of all the ones I just mentioned, I’d pick working out. Not just physically, but this habit brought significant changes in. my mental health and accelerated my self-improvement journey. How? Exercising is a habit that requires you to show up every day, be consistent, and be disciplined to even see results in the first place. This habit doesn’t serve instant gratification but instead trains your brain to work continuously even though you don’t see results. And this is the base of any habit you want to build — Consistency. You become more inclined to stick to schedules and routines. Building the habit of regular exercise instils a sense of accomplishment and motivates you to form other healthy habits.\n"
+                },
+                {
+                    "title": "Working on 1 skill every day",
+                    "content": "Pick anything — Coding, writing, video editing, UX design and work on it for an hour. Consistently. Spending just one hour every day allowing myself to explore new things online (and offline) is how I discovered writing and eventually built a following. In fact, before choosing to write, I tried a lot of different things that skipped my interest. I would never call the time I spend exploring a ‘waste of time’ because that is how I led to several skills that I have today.So, it’s okay to not choose a field and work on it even though you don’t enjoy it. Because this 1 hour is supposed to be enjoyable, and not increase your stress. This 1 hour is the time to invest in yourself — your interests. Before the new year starts, start some courses. Play around, and spend some days on a subject. Soon enough, you’ll find the thing you never get bored of.\n"
+                },
+                {
+                    "title": "Read daily",
+                    "content": "Personally, doing this before bed made it much easier for me to make reading a habit. Habit stacking is a way where rather than pairing your new habit with a particular time and location, you pair it with a current habit you already have. I usually like to do this before bed as it helps me sleep better. Most of my breaks are time for reading non-fiction books because it involves note-taking. If you feel like it’s too heavy of a task for a break, you can listen to audiobooks.\n"
+                },
+                {
+                    "title": "Wake up an hour earlier",
+                    "content": "Or, at least 30 minutes earlier than your normal wake-up time.(If you already wake up at 5, this one isn’t for you!) It seems like you suddenly have 2 to 3 extra hours added to your day. Also, you’ll get enough time to start your day well and work on passion projects. I have been waking up at 5:30 recently, and it’s transformed the way I think about mornings.I thought waking up early was the hardest part. But, not sleeping early is why you can’t make this a habit.So, if you ensure that you get 8 hours of sleep, and get enough sun exposure in the mornings immediately after waking up, it won’t be as hard. (Watching the sunrise is a beautiful bonus).\n"
+                }
+            ]
+        }
+    ]
+}

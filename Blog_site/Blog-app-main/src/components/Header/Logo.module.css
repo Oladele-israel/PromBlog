@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chicle&display=swap");
+
+.logo {
+  font-family: "Agbalumo", "Chicle", sans-serif;
+  cursor: pointer;
+  color: var(--color);
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: none !important;
+  font-size: 40px;
+}
+
+.highlight {
+  color: var(--blue-color);
+  font-family: "Agbalumo", "Chicle", sans-serif;
+}
+
+@media (min-width: 1016px) and (max-width: 1268px) {
+  .logo {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .logo {
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,10 @@
+.loading {
+    width: 3rem;
+    height: 3rem;
+    border: var(--bs-spinner-border-width) solid currentColor;
+    display: block;
+    margin: 50px auto;
+    font-weight: bold;
+    color: var(--color-sec); 
+    border-right-color: transparent;
+}

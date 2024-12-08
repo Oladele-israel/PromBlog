@@ -1,0 +1,17 @@
+.bg {
+  background-color: var(--backGround-color-sec);
+  padding: 20px 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 1016px) and (max-width: 1268px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}

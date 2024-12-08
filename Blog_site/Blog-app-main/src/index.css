@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Flavors&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+  transition: all ease-in-out;
+  transition-duration: 500ms;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --backGround-color-main: #ffffff;
+  --backGround-color-sec: #f4f4f4;
+  --color: #1f2633;
+  --color-sec: #6b6a6a;
+  --red-color: #b2010a;
+  --blue-color: #669bbc;
+}
+
+[data-theme="dark"] {
+  --backGround-color-main: #161616;
+  --backGround-color-sec: #1e1e1e;
+  --color: #fafafa;
+  --color-sec: #c4c4c4;
+  --red-color: #b2010a;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #6b6a6a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1f2633;
+  border-radius: 6px;
+}

@@ -1,0 +1,97 @@
+.searchIcon {
+  all: unset;
+  font-size: 22px;
+  color: var(--color);
+  width: fit-content;
+}
+
+.searchIcon:hover {
+  color: var(--blue-color);
+}
+
+.popupContainer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  backdrop-filter: blur(4px);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.popup {
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -25%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  z-index: 2;
+  border-radius: 20px;
+  max-height: 80vh;
+  min-width: 50vw;
+  overflow-y: auto;
+  cursor: auto;
+  color: var(--color);
+  background-color: var(--backGround-color-main);
+  border: 1px solid rgb(128, 126, 126);
+  margin-top: 6rem;
+}
+
+.icon {
+  all: unset;
+  width: fit-content;
+}
+
+.searchInput {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(75, 74, 74);
+  border-radius: 15px;
+  background-color: var(--backGround-color-sec);
+  color: var(--color-sec);
+}
+
+.inputIcon {
+  all: unset;
+  margin-left: 15px;
+}
+
+.input {
+  all: unset;
+  padding: 10px;
+  flex: 1;
+}
+
+.searchResults {
+  overflow-y: auto;
+}
+
+.searchResults a {
+  text-decoration: none;
+}
+
+.searchResults div {
+  text-decoration: none;
+  color: var(--color);
+  text-decoration: none;
+}
+
+.searchResults div h3 {
+  font-weight: 600;
+}
+
+.searchResults div h3:hover {
+  text-decoration: underline;
+}
+
+.searchResults div p {
+  color: var(--color-sec);
+}
