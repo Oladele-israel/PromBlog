@@ -66,6 +66,7 @@ const CreatePost = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(postData),
+        credentials: "include",
       });
 
       const result = await response.json();
