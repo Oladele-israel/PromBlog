@@ -124,6 +124,35 @@ const getAllPosts = async (req, res) => {
     });
   }
 };
+
+// get post by id
+const getPostById = async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const post = await Blog.findById(id);
+
+    if (!post) {
+      return res.status(404).json({
+        success: false,
+        message: "Post not found.",
+      });
+    }
+
+    return res.status(200).json({
+      success: true,
+      message: "Post retrieved successfully.",
+      data: post,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: "An error occurred while retrieving the post.",
+      error: error.message,
+    });
+  }
+};
+
 const updatePost = async (req, res) => {
   try {
     const { id } = req.params;
@@ -318,4 +347,5 @@ export {
   getAllPosts,
   likeBlog,
   unlikeBlog,
+  getPostById,
 };

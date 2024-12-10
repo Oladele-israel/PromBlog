@@ -8,5 +8,12 @@ export default defineConfig(({ mode }) => {
     build: {
       outDir: buildPath,
     },
+    css: {
+      modules: {
+        scopeBehaviour: "local", // Use CSS modules by default
+        localsConvention: "camelCase", // Camel case class names
+        generateScopedName: "[name]__[local]___[hash:base64:5]", // Scoped naming
+      },
+    },
   };
 });

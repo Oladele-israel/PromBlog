@@ -46,6 +46,7 @@ export const getUser = (req, res) => {
       id: authenticatedUser._id,
       email: authenticatedUser.email,
       name: authenticatedUser.displayName || authenticatedUser.name,
+      picture: authenticatedUser.profilePicture,
     },
   });
 };

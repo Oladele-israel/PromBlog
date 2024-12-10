@@ -47,13 +47,6 @@ function FeaturedPost() {
                       ...
                     </h1>
                     <div className={styles.info}>
-                      <img
-                        src={
-                          article.featuredImage || "placeholder-author-url.jpg"
-                        }
-                        alt="Author image"
-                        className={styles.authorImage}
-                      />
                       <p className={styles.readingTime}>
                         {article.readingTime
                           ? `${article.readingTime} min read`
@@ -66,7 +59,9 @@ function FeaturedPost() {
             )}
           </div>
         ) : (
-          <p className={styles.noArticles}>No featured articles found.</p>
+          <p className={styles.noArticles}>
+            Please login to view FeaturedPosts
+          </p>
         )}
       </Container>
     </div>

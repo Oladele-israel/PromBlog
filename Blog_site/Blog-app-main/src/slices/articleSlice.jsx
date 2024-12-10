@@ -1,30 +1,34 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchArticleById = createAsyncThunk(
-    'articleSlice/fetchArticleById',
-    async (articleId) => {
-        try {
-            const adjustedId = articleId - 1;
+  "articleSlice/fetchArticleById",
+  async (articleId) => {
+    try {
+      const response = await fetch(`http://localhost:8000/blogs/${articleId}`, {
+        method: "GET",
+        credentials: "include",
+      });
+      const data = await response.json();
+      console.log("these are the single articles from the frontend---->", data);
 
-            const response = await fetch(`https://api.npoint.io/df1918b475de71952ad7/${adjustedId}`);
-            const article = await response.json();
-            return article;
-        } catch (error) {
-            console.error('Error fetching article by ID:', error);
-            throw error;
-        }
+      // Return the articles array inside the "data" property
+      return data.data;
+    } catch (error) {
+      console.error("Error fetching article by ID:", error);
+      throw error;
     }
+  }
 );
 
 export const articleSlice = createSlice({
-    name: "articleSlice",
-    initialState: null,
-    reducers: {},
-    extraReducers: (builder) => {
-        builder.addCase(fetchArticleById.fulfilled, (state, action) => {
-            return action.payload;
-        });
-    }
+  name: "articleSlice",
+  initialState: null,
+  reducers: {},
+  extraReducers: (builder) => {
+    builder.addCase(fetchArticleById.fulfilled, (state, action) => {
+      return action.payload;
+    });
+  },
 });
 
 export default articleSlice.reducer;

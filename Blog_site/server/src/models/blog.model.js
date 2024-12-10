@@ -32,7 +32,15 @@ const blogSchema = new Schema(
     },
     category: {
       type: String,
-      enum: ["Technology", "Health", "Lifestyle", "Education", "Other"],
+      enum: [
+        "Technology",
+        "Health",
+        "Lifestyle",
+        "Education",
+        "Fashion",
+        "Business",
+        "Design",
+      ],
       required: [true, "please enter a valid category"],
     },
     readingTime: {

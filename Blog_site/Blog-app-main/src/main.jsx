@@ -13,6 +13,7 @@ import ContactUs from "./components/OtherPages/ContactUs";
 import CreatePost from "./components/OtherPages/CreatePost";
 import NotFound from "./components/OtherPages/NotFound";
 import Layout from "./layout";
+import ArticleDetail from "./components/OtherPages/ArticleDetail";
 
 const motionWrapper = (Component) => (
   <motion.div
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "*",
         element: motionWrapper(NotFound),
+      },
+      {
+        path: "/articleDetail/:articleId",
+        element: motionWrapper(ArticleDetail),
       },
     ],
   },
