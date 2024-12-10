@@ -28,6 +28,7 @@ export const googleAuthCallback = (req, res, next) => {
 // Get currently logged-in user
 export const getUser = (req, res) => {
   const authenticatedUser = req.user;
+  console.log("Session data ------------?: ", req.session.id);
 
   if (!authenticatedUser) {
     return res.status(404).json({

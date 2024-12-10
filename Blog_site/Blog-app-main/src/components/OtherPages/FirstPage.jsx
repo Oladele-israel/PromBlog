@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import styles from "./FirstSection.module.css";
+import styles from "./FirstPage.module.css";
 import { toast } from "react-toastify";
 import { useState } from "react";
 
@@ -32,7 +32,7 @@ function FirstSection() {
           your thoughts, stories, and ideas.
         </h1>
 
-        <div className={styles.row}>
+        <div className={`${styles.row} flex-col`}>
           <p className={styles.paragraph}>
             Subscribe to our email newsletter and be the first to receive
             exciting updates, exclusive content, and special offers straight to
@@ -43,7 +43,7 @@ function FirstSection() {
             onSubmit={handleSubscribe}
             action="/submit"
             method="post"
-            className={styles.form}
+            className={`${styles.form} mt-5`}
           >
             <input
               type="email"

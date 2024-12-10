@@ -4,18 +4,16 @@
 }
 
 .heroMainTitle {
-  font-size: 60px;
+  font-size: 95px;
   font-weight: bold;
   color: var(--color);
 }
 
 .row {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding-top: 50px;
-  gap: 20px;
 }
 
 .paragraph {
@@ -52,7 +50,7 @@
 }
 
 .emailSubscribe:hover {
-  background-color: var(--blue-color);
+  background-color: var(--red-color);
 }
 
 @media (max-width: 992px) {

@@ -12,7 +12,7 @@ export const fetchUser = createAsyncThunk("auth/fetchUser", async () => {
     }
 
     const user = await response.json();
-    console.log("this is the user from frontend ->", user);
+
     return user;
   } catch (error) {
     console.error("Error fetching user:", error);

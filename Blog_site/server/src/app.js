@@ -33,6 +33,7 @@ app.use(
     secret: process.env.SESSION_SECRET || "your_secret_key",
     resave: false,
     saveUninitialized: false,
+    name: "wtf",
     cookie: {
       secure: false,
       httpOnly: true,

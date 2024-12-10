@@ -80,6 +80,7 @@ const createPost = async (req, res) => {
       publishedAt: Date.now(),
       featuredImage: imageUrl,
       featuredImageId: imagePublicId,
+      author: loggedInUser,
     });
 
     await User.findByIdAndUpdate(loggedInUser, {
@@ -123,29 +124,45 @@ const getAllPosts = async (req, res) => {
     });
   }
 };
-
 const updatePost = async (req, res) => {
   try {
     const { id } = req.params;
-    const { title, content, tags, category, readingTime, isPublished } =
-      req.body;
+    const {
+      title,
+      content,
+      tags,
+      category,
+      readingTime,
+      isPublished,
+      featuredImage,
+    } = req.body;
 
-    if (!id) {
-      return res.status(400).json({
-        success: false,
-        message: "Post ID is required.",
-      });
-    }
-
-    const existingPost = await Blog.findById(id);
-    if (!existingPost) {
+    // Find the post
+    const post = await Blog.findById(id);
+    if (!post) {
       return res.status(404).json({
         success: false,
         message: "Post not found.",
       });
     }
 
-    if (title) validateString(title, 5, "Title");
+    // Check if the user is authorized to update the post
+    if (req.user.id !== post.author.toString()) {
+      return res.status(403).json({
+        success: false,
+        message: "You are not authorized to update this post.",
+      });
+    }
+
+    const updates = {};
+
+    // Validate and update the title
+    if (title) {
+      validateString(title, 5, "Title");
+      updates.title = title.trim();
+    }
+
+    // Validate and update the content
     if (content) {
       if (!Array.isArray(content)) {
         return res.status(400).json({
@@ -154,34 +171,64 @@ const updatePost = async (req, res) => {
         });
       }
       content.forEach((section, index) => {
-        const { title: sectionTitle, body } = section;
-        if (!sectionTitle || !body) {
-          throw new Error(
-            `Section ${index + 1} must include both 'title' and 'body'.`
-          );
-        }
-        validateString(sectionTitle, 5, `Section ${index + 1} title`);
-        validateString(body, 10, `Section ${index + 1} body`);
+        validateString(section.title, 5, `Section ${index + 1} title`);
+        validateString(section.body, 10, `Section ${index + 1} body`);
       });
+      updates.content = content;
     }
-    if (category) validateString(category, 3, "Category");
-    if (tags) validateTags(tags);
 
-    const updatedTags = tags ? tags.map((tag) => tag.trim()) : undefined;
+    // Validate and update the category
+    if (category) {
+      validateString(category, 3, "Category");
+      updates.category = category.trim();
+    }
 
-    const updatedPost = await Blog.findByIdAndUpdate(
-      id,
-      {
-        ...(title && { title: title.trim() }),
-        ...(content && { content }),
-        ...(tags && { tags: updatedTags }),
-        ...(category && { category: category.trim() }),
-        ...(readingTime && { readingTime }),
-        ...(isPublished !== undefined && { isPublished }),
-        ...(isPublished && { publishedAt: new Date() }),
-      },
-      { new: true }
-    );
+    // Validate and update the tags
+    if (tags) {
+      validateTags(tags);
+      updates.tags = tags.map((tag) => tag.trim());
+    }
+
+    // Update the reading time
+    if (readingTime) {
+      updates.readingTime = readingTime;
+    }
+
+    // Update publication status and timestamp
+    if (isPublished !== undefined) {
+      updates.isPublished = isPublished;
+      if (isPublished) {
+        updates.publishedAt = Date.now();
+      }
+    }
+
+    // Handle featured image update
+    if (featuredImage) {
+      // Delete the old featured image from Cloudinary
+      if (post.featuredImageId) {
+        await cloudinary.uploader.destroy(post.featuredImageId);
+      }
+
+      // Upload the new featured image to Cloudinary
+      const cloudinaryResponse = await cloudinary.uploader.upload(
+        featuredImage,
+        {
+          folder: process.env.CLOUDINARY_FOLDER || "/sample1",
+        }
+      );
+
+      if (!cloudinaryResponse || !cloudinaryResponse.secure_url) {
+        throw new Error("Failed to upload the new featured image.");
+      }
+
+      updates.featuredImage = cloudinaryResponse.secure_url;
+      updates.featuredImageId = cloudinaryResponse.public_id;
+    }
+
+    // Apply the updates
+    const updatedPost = await Blog.findByIdAndUpdate(id, updates, {
+      new: true,
+    });
 
     return res.status(200).json({
       success: true,
@@ -189,7 +236,7 @@ const updatePost = async (req, res) => {
       data: updatedPost,
     });
   } catch (error) {
-    return res.status(400).json({
+    return res.status(500).json({
       success: false,
       message: error.message || "An unexpected error occurred.",
     });

@@ -1,29 +1,49 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
+// Thunk to fetch articles
 export const fetchArticles = createAsyncThunk(
-  "articlesSlice/fetchArticles",
+  "articles/fetchArticles",
   async () => {
     try {
-      const response = await fetch(
-        "https://api.npoint.io/df1918b475de71952ad7"
-      );
-      const articles = await response.json();
-      return articles;
+      const response = await fetch("http://localhost:8000/blogs/", {
+        method: "GET",
+        credentials: "include",
+      });
+      const data = await response.json();
+      console.log("these are the articles from the frontend---->", data);
+
+      // Return the articles array inside the "data" property
+      return data.data;
     } catch (error) {
-      console.error("Error fetching products:", error);
+      console.error("Error fetching articles:", error);
       throw error;
     }
   }
 );
 
+// Articles slice
 export const articlesSlice = createSlice({
-  name: "articlesSlice",
-  initialState: [],
+  name: "articles",
+  initialState: {
+    articles: [], // Stores the array of articles
+    isLoading: false, // Loading state
+    error: null, // Error state
+  },
   reducers: {},
   extraReducers: (builder) => {
-    builder.addCase(fetchArticles.fulfilled, (state, action) => {
-      return action.payload;
-    });
+    builder
+      .addCase(fetchArticles.pending, (state) => {
+        state.isLoading = true;
+        state.error = null;
+      })
+      .addCase(fetchArticles.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.articles = action.payload; // Assign the articles array
+      })
+      .addCase(fetchArticles.rejected, (state, action) => {
+        state.isLoading = false;
+        state.error = action.error.message; // Capture any errors
+      });
   },
 });
 
