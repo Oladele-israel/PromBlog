@@ -19,10 +19,12 @@ export const googleAuthCallback = (req, res, next) => {
         return res.redirect("/auth/failure");
       }
 
-      res.redirect(
-        "http://localhost:5173" ||
-          "https://prime-blog-rg6bgxmfa-oladele-israels-projects.vercel.app/"
-      );
+      const redirectUrl =
+        process.env.NODE_ENV === "production"
+          ? "https://prime-blog-rg6bgxmfa-oladele-israels-projects.vercel.app/"
+          : "http://localhost:5173";
+
+      res.redirect(redirectUrl);
     });
   })(req, res, next);
 };
