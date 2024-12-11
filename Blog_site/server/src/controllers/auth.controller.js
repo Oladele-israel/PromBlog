@@ -11,7 +11,6 @@ export const googleAuth = passport.authenticate("google", {
 export const googleAuthCallback = (req, res, next) => {
   passport.authenticate("google", (err, user, info) => {
     if (err || !user) {
-      console.error("OAuth Callback Error:", err || info);
       return res.redirect("/auth/failure");
     }
     req.logIn(user, (err) => {
@@ -19,16 +18,14 @@ export const googleAuthCallback = (req, res, next) => {
         console.error("Login Error:", err);
         return res.redirect("/auth/failure");
       }
-      console.log("User logged in successfully:", user);
+
       res.redirect("http://localhost:5173");
     });
   })(req, res, next);
 };
 
-// Get currently logged-in user
 export const getUser = (req, res) => {
   const authenticatedUser = req.user;
-  console.log("Session data ------------?: ", req.session.id);
 
   if (!authenticatedUser) {
     return res.status(404).json({
@@ -36,8 +33,6 @@ export const getUser = (req, res) => {
       message: "No authenticated user found.",
     });
   }
-
-  console.log("Authenticated user:", authenticatedUser);
 
   return res.status(200).json({
     success: true,
@@ -54,25 +49,21 @@ export const getUser = (req, res) => {
 export const logout = (req, res) => {
   req.logout((err) => {
     if (err) {
-      console.error("Error during logout:", err);
       return res.status(500).json({
         success: false,
         message: "Logout failed",
       });
     }
 
-    // Explicitly destroy the session (optional if not needed)
     req.session.destroy((sessionErr) => {
       if (sessionErr) {
-        console.error("Error destroying session:", sessionErr);
         return res.status(500).json({
           success: false,
           message: "Failed to clear session",
         });
       }
 
-      // Clear session cookie if it exists (adjust cookie name if needed)
-      res.clearCookie("wtf"); // Replace with your session cookie name
+      res.clearCookie("wtf");
       return res.status(200).json({
         success: true,
         message: "Logged out successfully",

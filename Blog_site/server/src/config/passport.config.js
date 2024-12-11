@@ -16,13 +16,11 @@ async function verifyCallBack(accessToken, refreshToken, profile, done) {
         email,
         profilePicture,
       });
-      console.log("New user created in database ===>", user);
     } else {
-      console.log("Existing user found in database ----->", user);
+      console.log("Existing user found in database");
     }
     done(null, user);
   } catch (error) {
-    console.error("Error verifying Google user -->", error);
     done(error, null);
   }
 }
@@ -39,14 +37,11 @@ passport.use(
   )
 );
 
-// Serialize and deserialize user
 passport.serializeUser((user, done) => done(null, user._id));
 
-// Deserialize user: Fetch the user by ID when needed
 passport.deserializeUser(async (id, done) => {
-  console.log("this is the deserialized is ---->", id);
   try {
-    const user = await User.findById(id); // Ensure this matches your database field for `_id`
+    const user = await User.findById(id);
     if (!user) {
       return done(new Error("User not found"), null);
     }

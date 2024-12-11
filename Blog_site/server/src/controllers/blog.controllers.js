@@ -57,8 +57,6 @@ const createPost = async (req, res) => {
 
     const trimmedTags = tags.map((tag) => tag.trim());
 
-    //featured article image
-
     const cloudinaryResponse = await cloudinary.uploader.upload(featuredImage, {
       folder: process.env.CLOUDINARY_FOLDER || "/sample1",
     });
@@ -166,7 +164,6 @@ const updatePost = async (req, res) => {
       featuredImage,
     } = req.body;
 
-    // Find the post
     const post = await Blog.findById(id);
     if (!post) {
       return res.status(404).json({
@@ -175,7 +172,6 @@ const updatePost = async (req, res) => {
       });
     }
 
-    // Check if the user is authorized to update the post
     if (req.user.id !== post.author.toString()) {
       return res.status(403).json({
         success: false,
@@ -185,13 +181,11 @@ const updatePost = async (req, res) => {
 
     const updates = {};
 
-    // Validate and update the title
     if (title) {
       validateString(title, 5, "Title");
       updates.title = title.trim();
     }
 
-    // Validate and update the content
     if (content) {
       if (!Array.isArray(content)) {
         return res.status(400).json({
@@ -206,24 +200,20 @@ const updatePost = async (req, res) => {
       updates.content = content;
     }
 
-    // Validate and update the category
     if (category) {
       validateString(category, 3, "Category");
       updates.category = category.trim();
     }
 
-    // Validate and update the tags
     if (tags) {
       validateTags(tags);
       updates.tags = tags.map((tag) => tag.trim());
     }
 
-    // Update the reading time
     if (readingTime) {
       updates.readingTime = readingTime;
     }
 
-    // Update publication status and timestamp
     if (isPublished !== undefined) {
       updates.isPublished = isPublished;
       if (isPublished) {
@@ -231,14 +221,11 @@ const updatePost = async (req, res) => {
       }
     }
 
-    // Handle featured image update
     if (featuredImage) {
-      // Delete the old featured image from Cloudinary
       if (post.featuredImageId) {
         await cloudinary.uploader.destroy(post.featuredImageId);
       }
 
-      // Upload the new featured image to Cloudinary
       const cloudinaryResponse = await cloudinary.uploader.upload(
         featuredImage,
         {
@@ -254,7 +241,6 @@ const updatePost = async (req, res) => {
       updates.featuredImageId = cloudinaryResponse.public_id;
     }
 
-    // Apply the updates
     const updatedPost = await Blog.findByIdAndUpdate(id, updates, {
       new: true,
     });
@@ -302,7 +288,7 @@ const likeBlog = async (req, res) => {
     const blog = await Blog.findByIdAndUpdate(
       blogId,
       { $inc: { likes: 1 } },
-      { new: true } // Return the updated document
+      { new: true }
     );
 
     if (!blog) {

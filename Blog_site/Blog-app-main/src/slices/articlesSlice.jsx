@@ -1,6 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
-// Thunk to fetch articles
 export const fetchArticles = createAsyncThunk(
   "articles/fetchArticles",
   async () => {
@@ -10,9 +9,7 @@ export const fetchArticles = createAsyncThunk(
         credentials: "include",
       });
       const data = await response.json();
-      console.log("these are the articles from the frontend---->", data);
 
-      // Return the articles array inside the "data" property
       return data.data;
     } catch (error) {
       console.error("Error fetching articles:", error);
@@ -21,13 +18,12 @@ export const fetchArticles = createAsyncThunk(
   }
 );
 
-// Articles slice
 export const articlesSlice = createSlice({
   name: "articles",
   initialState: {
-    articles: [], // Stores the array of articles
-    isLoading: false, // Loading state
-    error: null, // Error state
+    articles: [],
+    isLoading: false,
+    error: null,
   },
   reducers: {},
   extraReducers: (builder) => {
@@ -38,11 +34,11 @@ export const articlesSlice = createSlice({
       })
       .addCase(fetchArticles.fulfilled, (state, action) => {
         state.isLoading = false;
-        state.articles = action.payload; // Assign the articles array
+        state.articles = action.payload;
       })
       .addCase(fetchArticles.rejected, (state, action) => {
         state.isLoading = false;
-        state.error = action.error.message; // Capture any errors
+        state.error = action.error.message;
       });
   },
 });

@@ -9,9 +9,7 @@ export const fetchArticleById = createAsyncThunk(
         credentials: "include",
       });
       const data = await response.json();
-      console.log("these are the single articles from the frontend---->", data);
 
-      // Return the articles array inside the "data" property
       return data.data;
     } catch (error) {
       console.error("Error fetching article by ID:", error);

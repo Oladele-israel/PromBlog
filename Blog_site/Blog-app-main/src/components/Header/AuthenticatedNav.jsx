@@ -43,14 +43,11 @@ const AuthenticatedNav = () => {
         const errorData = await res.json();
         throw new Error(errorData.message || "Logout failed");
       }
-
-      console.log("Logged out successfully");
     } catch (error) {
       console.error("Error during logout:", error);
     }
   };
 
-  // getting and displaying the initials
   const getUserInitials = (name) => {
     return name
       .split(" ")

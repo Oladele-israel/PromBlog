@@ -6,20 +6,31 @@ import { Link } from "react-router-dom";
 const AllArticles = () => {
   const dispatch = useDispatch();
   const { articles } = useSelector((state) => state.articles);
-  console.log("articles--?>", articles);
+  const isDarkMode = useSelector((state) => state.darkMode.theme);
 
   useEffect(() => {
     dispatch(fetchArticles());
-  }, [dispatch]);
+    if (isDarkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [dispatch, isDarkMode]);
 
   return (
     <section
-      className="grid md:grid-cols-2 justify-center  max-w-5xl mx-auto gap-4 p-4"
+      className={`flex flex-wrap gap-3 ml-auto mr-auto w-full p-4 justify-center ${
+        isDarkMode ? "bg-[#161616] text-white" : "bg-white text-gray-900"
+      } `}
       id="articles"
     >
       {articles.map((article) => (
         <div
-          className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+          className={`max-w-sm rounded-lg shadow-md overflow-hidden ${
+            isDarkMode
+              ? "bg-[#1e1e1e] text-white"
+              : "bg-slate-100 text-slate-700"
+          } hover:shadow-lg`}
           key={article._id}
         >
           <img
@@ -33,7 +44,11 @@ const AllArticles = () => {
               </span>
               <span>{article.readingTime}min read</span>
             </div>
-            <h2 className="text-lg font-semibold text-gray-800 hover:text-blue-600 line-clamp-2">
+            <h2
+              className={`text-lg font-semibold text-gray-800 hover:text-blue-600 line-clamp-2 ${
+                isDarkMode && "text-white"
+              }`}
+            >
               {article.title}
             </h2>
             <div className="mt-2 text-sm text-gray-600">

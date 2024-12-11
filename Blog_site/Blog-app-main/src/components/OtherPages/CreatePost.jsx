@@ -71,7 +71,7 @@ const CreatePost = () => {
 
       const result = await response.json();
       if (response.ok) {
-        console.log("Post created successfully:", result);
+        console.log("Post created successfully:");
       } else {
         console.error("Failed to create post:", result.message);
       }

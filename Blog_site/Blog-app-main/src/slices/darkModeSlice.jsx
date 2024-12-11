@@ -11,7 +11,6 @@ export const darkModeSlice = createSlice({
       state.theme = newTheme;
       localStorage.setItem("darkMode", JSON.stringify(newTheme));
 
-      // Update the `html` class for TailwindCSS dark mode
       if (newTheme) {
         document.documentElement.classList.add("dark");
       } else {
