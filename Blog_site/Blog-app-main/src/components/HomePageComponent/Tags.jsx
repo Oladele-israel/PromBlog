@@ -4,7 +4,7 @@ import { IoArrowRedoOutline } from "react-icons/io5";
 import { TbTags } from "react-icons/tb";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchArticles } from "../../slices/articlesSlice";
-import { toggleDarkMode } from "../../slices/darkModeSlice";
+
 import business from "../../assets/business.webp";
 import fashion from "../../assets/fashion.webp";
 import ideas from "../../assets/ideas.webp";

@@ -1,6 +1,5 @@
 import express from "express";
-import path from "path";
-import { fileURLToPath } from "url";
+
 import helmet from "helmet";
 import cors from "cors";
 import session from "express-session";
@@ -8,9 +7,6 @@ import passport from "./config/passport.config.js";
 import authRouter from "./routes/auth.routes.js";
 import blogRouter from "./routes/blogs.routes.js";
 import bodyParser from "body-parser";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const app = express();
 
@@ -24,8 +20,6 @@ app.use(
     credentials: true,
   })
 );
-
-app.use(express.static(path.join(__dirname, "..", "public")));
 
 app.use(
   session({
