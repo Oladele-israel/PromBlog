@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 app.use(helmet());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://prom-blog.vercel.app"],
+    origin: ["http://localhost:5173", "https://prom-blog.vercel.app/"],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     credentials: true,
   })

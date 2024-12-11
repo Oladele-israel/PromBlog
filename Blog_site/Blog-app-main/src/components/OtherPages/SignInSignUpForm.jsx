@@ -13,7 +13,7 @@ function SignInSignUpForm() {
   const { isAuthenticated } = useSelector((state) => state.auth);
 
   const handleGoogleLogin = () => {
-    window.location.href = "http://localhost:8000/auth/google";
+    window.location.href = "https://promblog-1.onrender.com/auth/google";
   };
 
   useEffect(() => {
