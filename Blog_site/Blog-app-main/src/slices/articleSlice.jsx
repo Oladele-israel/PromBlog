@@ -5,7 +5,7 @@ export const fetchArticleById = createAsyncThunk(
   async (articleId) => {
     try {
       const response = await fetch(
-        `https://promblog.onrender.com/blogs/${articleId}`,
+        `https://promblog-1.onrender.com/blogs/${articleId}`,
         {
           method: "GET",
           credentials: "include",

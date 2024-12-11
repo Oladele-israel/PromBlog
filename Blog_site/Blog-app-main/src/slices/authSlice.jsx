@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchUser = createAsyncThunk("auth/fetchUser", async () => {
   try {
-    const response = await fetch("https://promblog.onrender.com/auth/user", {
+    const response = await fetch("https://promblog-1.onrender.com//auth/user", {
       method: "GET",
       credentials: "include",
     });
