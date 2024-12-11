@@ -4,7 +4,7 @@ export const fetchArticles = createAsyncThunk(
   "articles/fetchArticles",
   async () => {
     try {
-      const response = await fetch("http://localhost:8000/blogs/", {
+      const response = await fetch("https://promblog.onrender.com/blogs/", {
         method: "GET",
         credentials: "include",
       });
