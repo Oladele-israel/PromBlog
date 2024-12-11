@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import AuthenticatedNav from "./authenticatedNav";
+import AuthenticatedNav from "./AuthenticatedNav.jsx";
 import NonAuthenticatedNav from "./NonAuthenticatedNav";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUser } from "../../slices/authSlice";
