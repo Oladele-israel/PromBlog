@@ -19,7 +19,10 @@ export const googleAuthCallback = (req, res, next) => {
         return res.redirect("/auth/failure");
       }
 
-      res.redirect("http://localhost:5173");
+      res.redirect(
+        "http://localhost:5173" ||
+          "https://prime-blog-rg6bgxmfa-oladele-israels-projects.vercel.app/"
+      );
     });
   })(req, res, next);
 };

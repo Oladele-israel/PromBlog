@@ -15,7 +15,10 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 app.use(helmet());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "https://prime-blog-rg6bgxmfa-oladele-israels-projects.vercel.app/",
+    ],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     credentials: true,
   })
