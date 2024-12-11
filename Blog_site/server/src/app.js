@@ -17,7 +17,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://prime-blog-rg6bgxmfa-oladele-israels-projects.vercel.app/",
+      "https://prime-blog-rg6bgxmfa-oladele-israels-projects.vercel.app",
     ],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     credentials: true,
