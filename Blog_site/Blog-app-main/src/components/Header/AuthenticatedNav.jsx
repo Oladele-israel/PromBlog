@@ -32,10 +32,24 @@ const AuthenticatedNav = () => {
     };
   }, [mobile]);
 
-  const handleLogout = () => {
-    dispatch(logoutUser());
-    setMobile(false);
+  const handleLogout = async () => {
+    try {
+      const res = await fetch("http://localhost:8000/auth/logout", {
+        method: "GET",
+        credentials: "include",
+      });
+
+      if (!res.ok) {
+        const errorData = await res.json();
+        throw new Error(errorData.message || "Logout failed");
+      }
+
+      console.log("Logged out successfully");
+    } catch (error) {
+      console.error("Error during logout:", error);
+    }
   };
+
   // getting and displaying the initials
   const getUserInitials = (name) => {
     return name

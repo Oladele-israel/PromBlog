@@ -14,7 +14,7 @@ const router = express.Router();
 router.get("/google", googleAuth);
 router.get("/google/callback", googleAuthCallback);
 router.get("/user", checkLoggedIn, getUser);
-router.post("/logout", logout);
+router.get("/logout", checkLoggedIn, logout);
 router.get("/failure", failure);
 
 export default router;

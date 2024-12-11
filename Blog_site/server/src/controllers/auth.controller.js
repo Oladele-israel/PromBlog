@@ -60,10 +60,23 @@ export const logout = (req, res) => {
         message: "Logout failed",
       });
     }
-    res.clearCookie("connect.sid");
-    res.status(200).json({
-      success: true,
-      message: "Logged out successfully",
+
+    // Explicitly destroy the session (optional if not needed)
+    req.session.destroy((sessionErr) => {
+      if (sessionErr) {
+        console.error("Error destroying session:", sessionErr);
+        return res.status(500).json({
+          success: false,
+          message: "Failed to clear session",
+        });
+      }
+
+      // Clear session cookie if it exists (adjust cookie name if needed)
+      res.clearCookie("wtf"); // Replace with your session cookie name
+      return res.status(200).json({
+        success: true,
+        message: "Logged out successfully",
+      });
     });
   });
 };
